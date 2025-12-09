@@ -1,0 +1,11 @@
+﻿# Игнорировать в M2U3
+*.exe
+*.dll
+*.bin
+*.pth
+*.ckpt
+*.safetensors
+*.zip
+*.rar
+__pycache__/
+*.pyc
