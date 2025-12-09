@@ -1,0 +1,86 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/app/venv/Scripts/python.exe",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.extraPaths": [
+        "./app",
+        "./src"
+    ],
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnknownVariableType": "error",
+        "reportUnknownMemberType": "error",
+        "reportUnknownArgumentType": "error",
+        "reportOptionalMemberAccess": "error",
+        "reportMissingImports": "error",
+        "reportUnusedImport": "warning",
+        "reportUnusedVariable": "warning",
+        "reportUnusedFunction": "warning",
+        "reportUnusedClass": "warning"
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.coverage": true,
+        "**/htmlcov": true,
+        "**/.env": true,
+        "**/.venv": true,
+        "**/venv": true
+    },
+    "search.exclude": {
+        "**/venv": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
+    "files.associations": {
+        "*.env": "properties",
+        "*.env.*": "properties",
+        "*.jinja2": "html",
+        "*.j2": "html"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "jinja-html": "html",
+        "jinja": "html"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        }
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.quickSuggestions": {
+            "strings": true
+        }
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.banditEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.terminal.activateEnvironment": false
+}

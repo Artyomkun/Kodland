@@ -1,0 +1,1588 @@
+2025-11-05 22:36:35 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 22:36:38 - IMAGE_GENERATOR - ✅ Успешно загружена: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 22:36:38 - Бот запускается...
+2025-11-05 22:36:38 - Команды меню установлены
+2025-11-05 22:36:38 - Команды бота успешно установлены
+2025-11-05 22:36:38 - Бот успешно запущен
+2025-11-05 22:37:47 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-05 22:37:51 - Текст от 1294714607 (Artyom_Leader): 'Собака...'
+2025-11-05 22:37:51 - Генерация изображения для 1294714607 (Artyom_Leader): 'Собака...'
+2025-11-05 22:37:51 - IMAGE_GENERATOR - 🤖 Используется AI модель для генерации
+2025-11-05 22:37:51 - IMAGE_GENERATOR - 🤖 AI генерация: a cute domestic dog, canine, dog eyes, dog nose, fur, pet dog, sitting, realistic photo, high quality, detailed fur, friendly dog face
+2025-11-05 22:43:32 - IMAGE_GENERATOR - 📊 Тип результата: <class 'diffusers.pipelines.stable_diffusion.pipeline_output.StableDiffusionPipelineOutput'>
+2025-11-05 22:43:32 - IMAGE_GENERATOR - 📷 Количество изображений: 1
+2025-11-05 22:43:32 - IMAGE_GENERATOR - ✅ Взяли result.images[0]: <class 'PIL.Image.Image'>
+2025-11-05 22:43:32 - IMAGE_GENERATOR - 🎉 Получено PIL Image!
+2025-11-05 22:43:34 - IMAGE_GENERATOR - 💾 Изображение сохранено: generated_images\ai_1294714607_224334.png
+2025-11-05 22:43:34 - IMAGE_GENERATOR - ✅ AI изображение создано!
+2025-11-05 22:43:35 - Изображение успешно создано для 1294714607 (Artyom_Leader)
+2025-11-05 22:45:40 - Текст от 1294714607 (Artyom_Leader): 'Слон...'
+2025-11-05 22:45:40 - Игнорировано сообщение от 1294714607 (Artyom_Leader)
+2025-11-05 22:46:16 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-05 22:46:19 - Текст от 1294714607 (Artyom_Leader): 'Слон...'
+2025-11-05 22:46:19 - Генерация изображения для 1294714607 (Artyom_Leader): 'Слон...'
+2025-11-05 22:46:19 - IMAGE_GENERATOR - 🤖 Используется AI модель для генерации
+2025-11-05 22:46:19 - IMAGE_GENERATOR - 🤖 AI генерация: Слон, realistic, high quality, detailed
+2025-11-05 22:50:47 - IMAGE_GENERATOR - 📊 Тип результата: <class 'diffusers.pipelines.stable_diffusion.pipeline_output.StableDiffusionPipelineOutput'>
+2025-11-05 22:50:47 - IMAGE_GENERATOR - 📷 Количество изображений: 1
+2025-11-05 22:50:47 - IMAGE_GENERATOR - ✅ Взяли result.images[0]: <class 'PIL.Image.Image'>
+2025-11-05 22:50:47 - IMAGE_GENERATOR - 🎉 Получено PIL Image!
+2025-11-05 22:50:47 - IMAGE_GENERATOR - 💾 Изображение сохранено: generated_images\ai_1294714607_225047.png
+2025-11-05 22:50:47 - IMAGE_GENERATOR - ✅ AI изображение создано!
+2025-11-05 22:50:48 - Изображение успешно создано для 1294714607 (Artyom_Leader)
+2025-11-05 23:16:48 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: runwayml/stable-diffusion-v1-5
+2025-11-05 23:16:51 - IMAGE_GENERATOR - ✅ Успешно загружена: runwayml/stable-diffusion-v1-5
+2025-11-05 23:16:51 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: anime
+2025-11-05 23:16:51 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 404 Client Error: Not Found for url: https://huggingface.co/ostris/ikea-instructions-lora-sdxl/resolve/main/ikea_instructions_xl.safetensors
+2025-11-05 23:16:51 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: pixel_art
+2025-11-05 23:17:06 - IMAGE_GENERATOR - ❌ Ошибка применения LoRA: PEFT backend is required for this method.
+2025-11-05 23:17:06 - IMAGE_GENERATOR - ✅ LoRA загружен: pixel_art
+2025-11-05 23:17:06 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: watercolor
+2025-11-05 23:17:06 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 401 Client Error: Unauthorized for url: https://huggingface.co/artificialguybr/WaterColor-Lora/resolve/main/WaterColor.safetensors
+2025-11-05 23:17:06 - Бот запускается...
+2025-11-05 23:17:07 - Команды меню установлены
+2025-11-05 23:17:07 - Команды бота успешно установлены
+2025-11-05 23:17:07 - Бот успешно запущен
+2025-11-05 23:21:45 - Бот выключается...
+2025-11-05 23:21:45 - Выключение бота завершено
+2025-11-05 23:22:23 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: runwayml/stable-diffusion-v1-5
+2025-11-05 23:23:06 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: runwayml/stable-diffusion-v1-5
+2025-11-05 23:25:49 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: runwayml/stable-diffusion-v1-5
+2025-11-05 23:25:49 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-05 23:27:49 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:27:49 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-05 23:27:52 - IMAGE_GENERATOR - ✅ Успешно загружена: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:27:52 - IMAGE_GENERATOR - 💾 Модель сохранена в: D:/huggingface_cache
+2025-11-05 23:27:52 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: anime
+2025-11-05 23:27:52 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\anime.safetensors
+2025-11-05 23:27:53 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 404 Client Error: Not Found for url: https://huggingface.co/ostris/ikea-instructions-lora-sdxl/resolve/main/ikea_instructions_xl.safetensors
+2025-11-05 23:27:53 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: pixel_art
+2025-11-05 23:27:53 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\pixel_art.safetensors
+2025-11-05 23:28:17 - IMAGE_GENERATOR - ✅ LoRA сохранен: D:/lora_models\pixel_art.safetensors
+2025-11-05 23:28:17 - IMAGE_GENERATOR - ❌ Ошибка применения LoRA: PEFT backend is required for this method.
+2025-11-05 23:28:17 - IMAGE_GENERATOR - ✅ LoRA загружен: pixel_art
+2025-11-05 23:28:17 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: watercolor
+2025-11-05 23:28:17 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\watercolor.safetensors
+2025-11-05 23:28:18 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 401 Client Error: Unauthorized for url: https://huggingface.co/artificialguybr/WaterColor-Lora/resolve/main/WaterColor.safetensors
+2025-11-05 23:28:18 - Бот запускается...
+2025-11-05 23:28:18 - Команды меню установлены
+2025-11-05 23:28:18 - Команды бота успешно установлены
+2025-11-05 23:28:18 - Бот успешно запущен
+2025-11-05 23:34:30 - Бот выключается...
+2025-11-05 23:34:30 - Выключение бота завершено
+2025-11-05 23:35:09 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:35:09 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-05 23:35:12 - IMAGE_GENERATOR - ✅ Успешно загружена: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:35:12 - IMAGE_GENERATOR - 💾 Модель сохранена в: D:/huggingface_cache
+2025-11-05 23:35:12 - IMAGE_GENERATOR - 🔧 LoRA загрузка временно отключена (требуется PEFT)
+2025-11-05 23:35:13 - Бот запускается...
+2025-11-05 23:35:13 - Команды меню установлены
+2025-11-05 23:35:13 - Команды бота успешно установлены
+2025-11-05 23:35:13 - Бот успешно запущен
+2025-11-05 23:36:26 - Бот выключается...
+2025-11-05 23:36:26 - Выключение бота завершено
+2025-11-05 23:37:53 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:37:53 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-05 23:37:59 - IMAGE_GENERATOR - ✅ Успешно загружена: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:37:59 - IMAGE_GENERATOR - 💾 Модель сохранена в: D:/huggingface_cache
+2025-11-05 23:37:59 - IMAGE_GENERATOR - 🔧 LoRA загрузка временно отключена (требуется PEFT)
+2025-11-05 23:37:59 - Бот запускается...
+2025-11-05 23:37:59 - Команды меню установлены
+2025-11-05 23:37:59 - Команды бота успешно установлены
+2025-11-05 23:37:59 - Бот успешно запущен
+2025-11-05 23:44:39 - Бот выключается...
+2025-11-05 23:44:39 - Выключение бота завершено
+2025-11-05 23:45:12 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:45:12 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-05 23:45:16 - IMAGE_GENERATOR - ✅ Успешно загружена: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:45:16 - IMAGE_GENERATOR - 💾 Модель сохранена в: D:/huggingface_cache
+2025-11-05 23:45:16 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: anime
+2025-11-05 23:45:16 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\anime.safetensors
+2025-11-05 23:45:16 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 401 Client Error: Unauthorized for url: https://huggingface.co/ostris/anime-style-lora/resolve/main/anime_style.safetensors
+2025-11-05 23:45:16 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: anime
+2025-11-05 23:45:16 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-05 23:45:17 - IMAGE_GENERATOR - ❌ Ошибка применения LoRA: Target modules {'0.1.transformer_blocks.0.ff.net.0.proj', '0.1.proj_out', '2.1.transformer_blocks.0.ff.net.2', '0.1.transformer_blocks.0.attn1.to_out.0', '3.attn2.to_q', '8.attn1.to_q', '2.1.transformer_blocks.0.attn1.to_v', '3.1.transformer_blocks.0.ff.net.2', '9.attn1.to_q', '4.1.transformer_blocks.0.attn1.to_out.0', '6.attn1.to_k', '5.attn1.to_k', '2.attn2.to_q', '1.attn2.to_out.0', '4.attn2.to_out.0', '0.1.transformer_blocks.0.attn2.to_k', '3.ff.net.0.proj', '4.ff.net.0.proj', '8.1.transformer_blocks.0.attn2.to_q', '8.attn2.to_q', '8.1.transformer_blocks.0.attn2.to_v', '5.1.transformer_blocks.0.attn1.to_q', '9.attn2.to_out.0', '2.attn2.to_k', '8.1.transformer_blocks.0.attn1.to_v', '1.1.proj_in', '6.ff.net.0.proj', '3.1.transformer_blocks.0.ff.net.0.proj', '7.1.transformer_blocks.0.attn2.to_out.0', '4.1.proj_in', '1.1.transformer_blocks.0.attn1.to_v', '5.1.transformer_blocks.0.ff.net.0.proj', '6.attn1.to_out.0', '5.attn1.to_out.0', 'mid_block.1.transformer_blocks.0.ff.net.2', '7.attn1.to_v', '7.ff.net.2', '1.ff.net.0.proj', '4.1.transformer_blocks.0.attn2.to_v', '3.1.transformer_blocks.0.attn1.to_out.0', '1.attn1.to_v', '5.ff.net.2', '0.1.transformer_blocks.0.attn1.to_v', '5.1.transformer_blocks.0.attn2.to_q', 'mid_block.1.transformer_blocks.0.attn2.to_k', '2.attn1.to_out.0', '8.attn2.to_k', '3.attn2.to_out.0', 'mid_block.1.transformer_blocks.0.attn1.to_out.0', '4.attn2.to_v', '4.attn2.to_k', '2.1.transformer_blocks.0.attn2.to_q', 'mid_block.1.proj_in', '0.1.transformer_blocks.0.attn2.to_v', '7.attn2.to_out.0', '3.attn2.to_v', '2.1.transformer_blocks.0.attn2.to_v', '9.ff.net.2', '5.attn1.to_q', '1.1.transformer_blocks.0.attn1.to_k', '3.1.transformer_blocks.0.attn1.to_q', '1.attn1.to_q', '1.attn2.to_v', 'mid_block.1.transformer_blocks.0.attn1.to_q', '3.ff.net.2', '2.1.transformer_blocks.0.attn1.to_q', '1.1.transformer_blocks.0.attn2.to_q', '5.attn2.to_v', '7.1.transformer_blocks.0.attn2.to_k', '8.1.proj_in', '0.1.transformer_blocks.0.attn1.to_k', '1.1.transformer_blocks.0.attn2.to_out.0', '1.attn2.to_k', '7.attn2.to_v', '8.1.transformer_blocks.0.attn1.to_k', '5.ff.net.0.proj', '2.ff.net.2', '4.attn1.to_v', '5.1.transformer_blocks.0.attn2.to_k', '3.1.transformer_blocks.0.attn1.to_v', '4.attn1.to_k', '0.1.transformer_blocks.0.attn2.to_q', '1.attn2.to_q', '3.attn2.to_k', '1.1.transformer_blocks.0.attn2.to_v', '4.1.proj_out', '3.attn1.to_q', '4.attn1.to_q', 'mid_block.1.transformer_blocks.0.attn2.to_v', 'mid_block.1.transformer_blocks.0.ff.net.0.proj', '1.1.proj_out', '2.1.transformer_blocks.0.attn2.to_out.0', '5.1.proj_in', '8.1.transformer_blocks.0.attn1.to_q', '1.1.transformer_blocks.0.ff.net.0.proj', '1.1.transformer_blocks.0.attn1.to_out.0', '5.attn1.to_v', '2.attn2.to_v', '7.1.transformer_blocks.0.ff.net.0.proj', '3.1.transformer_blocks.0.attn2.to_k', '4.1.transformer_blocks.0.attn2.to_out.0', '9.attn1.to_v', '8.ff.net.2', '2.1.transformer_blocks.0.attn2.to_k', '3.attn1.to_out.0', '1.1.transformer_blocks.0.attn1.to_q', '8.attn1.to_v', '9.attn1.to_k', '7.1.transformer_blocks.0.attn2.to_q', '5.attn2.to_q', 'mid_block.1.transformer_blocks.0.attn1.to_v', '8.1.transformer_blocks.0.attn1.to_out.0', '2.1.proj_out', '3.attn1.to_k', '8.attn1.to_k', '5.attn2.to_k', '7.attn1.to_k', '8.attn2.to_v', '3.1.transformer_blocks.0.attn2.to_q', '4.1.transformer_blocks.0.attn2.to_k', '3.1.transformer_blocks.0.attn2.to_v', '8.1.proj_out', '7.attn1.to_q', '1.ff.net.2', '3.1.proj_in', '4.1.transformer_blocks.0.attn1.to_v', '9.attn2.to_k', '8.ff.net.0.proj', '9.ff.net.0.proj', '6.attn2.to_out.0', '7.1.transformer_blocks.0.attn1.to_q', '7.1.transformer_blocks.0.ff.net.2', 'mid_block.1.proj_out', '2.attn2.to_out.0', '7.1.proj_out', '2.attn1.to_q', '5.1.transformer_blocks.0.attn1.to_out.0', '4.1.transformer_blocks.0.attn2.to_q', 'mid_block.1.transformer_blocks.0.attn2.to_out.0', '9.attn2.to_q', '3.attn1.to_v', '6.attn1.to_v', '3.1.proj_out', '1.attn1.to_k', '8.1.transformer_blocks.0.ff.net.2', '1.1.transformer_blocks.0.ff.net.2', '6.attn2.to_k', '4.attn2.to_q', '6.attn2.to_q', '0.1.transformer_blocks.0.attn1.to_q', '9.attn2.to_v', 'mid_block.1.transformer_blocks.0.attn1.to_k', '7.1.transformer_blocks.0.attn1.to_out.0', '4.1.transformer_blocks.0.ff.net.2', '5.1.proj_out', '4.1.transformer_blocks.0.attn1.to_k', '6.attn2.to_v', '8.1.transformer_blocks.0.attn2.to_k', '5.1.transformer_blocks.0.attn1.to_k', '3.1.transformer_blocks.0.attn2.to_out.0', '4.ff.net.2', '2.attn1.to_k', '1.1.transformer_blocks.0.attn2.to_k', '2.1.transformer_blocks.0.attn1.to_k', '6.attn1.to_q', '5.1.transformer_blocks.0.attn2.to_v', '7.attn2.to_k', '2.attn1.to_v', '7.1.transformer_blocks.0.attn1.to_k', 'mid_block.1.transformer_blocks.0.attn2.to_q', '2.1.proj_in', '0.1.transformer_blocks.0.ff.net.2', '2.ff.net.0.proj', '4.attn1.to_out.0', '8.1.transformer_blocks.0.attn2.to_out.0', '2.1.transformer_blocks.0.ff.net.0.proj', '2.1.transformer_blocks.0.attn1.to_out.0', '5.1.transformer_blocks.0.attn1.to_v', '3.1.transformer_blocks.0.attn1.to_k', '9.attn1.to_out.0', '5.1.transformer_blocks.0.ff.net.2', '4.1.transformer_blocks.0.attn1.to_q', '6.ff.net.2', '5.attn2.to_out.0', '7.ff.net.0.proj', '7.attn2.to_q', '5.1.transformer_blocks.0.attn2.to_out.0', '0.1.proj_in', '7.attn1.to_out.0', '1.attn1.to_out.0', '7.1.transformer_blocks.0.attn2.to_v', '8.1.transformer_blocks.0.ff.net.0.proj', '7.1.transformer_blocks.0.attn1.to_v', '0.1.transformer_blocks.0.attn2.to_out.0', '8.attn2.to_out.0', '4.1.transformer_blocks.0.ff.net.0.proj', '8.attn1.to_out.0', '7.1.proj_in'} not found in the base model. Please check the target modules and try again.
+2025-11-05 23:45:17 - IMAGE_GENERATOR - ✅ LoRA загружен: pixel_art
+2025-11-05 23:45:17 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: watercolor
+2025-11-05 23:45:17 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\watercolor.safetensors
+2025-11-05 23:45:18 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 401 Client Error: Unauthorized for url: https://huggingface.co/artificialguybr/WaterColor-Lora/resolve/main/WaterColor.safetensors
+2025-11-05 23:45:18 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: watercolor
+2025-11-05 23:45:18 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: realistic
+2025-11-05 23:45:18 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\realistic.safetensors
+2025-11-05 23:46:27 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:46:27 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-05 23:46:30 - IMAGE_GENERATOR - ✅ Успешно загружена: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:46:30 - IMAGE_GENERATOR - 💾 Модель сохранена в: D:/huggingface_cache
+2025-11-05 23:46:30 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: anime
+2025-11-05 23:46:30 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\anime.safetensors
+2025-11-05 23:46:30 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 404 Client Error: Not Found for url: https://huggingface.co/ostris/ikea-instructions-lora-sdxl/resolve/main/ikea_instructions_xl.safetensors
+2025-11-05 23:46:30 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: anime
+2025-11-05 23:46:30 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-05 23:46:31 - IMAGE_GENERATOR - ❌ Ошибка применения LoRA: Target modules {'3.1.transformer_blocks.0.attn1.to_out.0', '5.attn2.to_k', '8.attn1.to_q', '4.1.proj_in', '9.attn1.to_k', '1.attn2.to_v', '8.1.transformer_blocks.0.ff.net.2', '5.attn2.to_out.0', '1.1.transformer_blocks.0.attn1.to_out.0', '9.attn2.to_k', '0.1.transformer_blocks.0.attn1.to_out.0', '3.attn1.to_out.0', '2.1.transformer_blocks.0.attn2.to_v', '9.ff.net.0.proj', '1.attn1.to_q', '6.ff.net.0.proj', '5.1.proj_in', '8.1.transformer_blocks.0.attn1.to_out.0', '2.attn2.to_out.0', '2.1.transformer_blocks.0.ff.net.2', 'mid_block.1.transformer_blocks.0.ff.net.2', '1.1.proj_in', '4.1.transformer_blocks.0.attn2.to_q', '7.1.transformer_blocks.0.ff.net.2', 'mid_block.1.proj_in', '8.ff.net.2', '7.1.transformer_blocks.0.attn2.to_out.0', '4.1.transformer_blocks.0.attn2.to_out.0', '1.attn1.to_k', '7.attn1.to_k', '4.attn1.to_v', 'mid_block.1.transformer_blocks.0.attn2.to_v', '1.attn1.to_out.0', '9.attn2.to_out.0', '0.1.transformer_blocks.0.attn2.to_q', '7.1.transformer_blocks.0.attn2.to_v', '8.attn2.to_k', '8.1.transformer_blocks.0.attn2.to_k', '8.attn2.to_q', '1.1.transformer_blocks.0.attn2.to_v', '4.ff.net.2', '5.1.transformer_blocks.0.ff.net.2', '4.1.transformer_blocks.0.ff.net.0.proj', '4.1.proj_out', '8.1.transformer_blocks.0.attn1.to_k', '3.attn2.to_v', '1.1.transformer_blocks.0.attn1.to_k', '4.1.transformer_blocks.0.attn1.to_v', 'mid_block.1.transformer_blocks.0.attn2.to_k', '7.attn2.to_k', '7.1.transformer_blocks.0.attn1.to_out.0', '6.attn1.to_q', '1.attn2.to_out.0', '8.attn1.to_k', '7.1.transformer_blocks.0.attn1.to_q', '9.attn1.to_v', '1.ff.net.0.proj', '2.1.transformer_blocks.0.ff.net.0.proj', '3.ff.net.0.proj', '0.1.transformer_blocks.0.attn1.to_k', '7.attn1.to_v', '8.1.transformer_blocks.0.attn2.to_v', '3.ff.net.2', '7.1.proj_in', '6.ff.net.2', '0.1.proj_out', '2.1.transformer_blocks.0.attn2.to_q', '5.attn1.to_v', '2.1.transformer_blocks.0.attn2.to_k', '5.1.transformer_blocks.0.attn2.to_k', '0.1.transformer_blocks.0.attn1.to_q', '7.1.transformer_blocks.0.attn1.to_v', '7.1.transformer_blocks.0.attn1.to_k', '6.attn2.to_out.0', '8.1.transformer_blocks.0.attn2.to_q', '5.ff.net.0.proj', '5.1.proj_out', '4.attn2.to_q', '8.attn1.to_v', '6.attn1.to_k', '3.attn2.to_out.0', '7.attn2.to_out.0', '7.ff.net.2', '5.attn2.to_v', '1.1.transformer_blocks.0.attn2.to_q', '7.attn1.to_q', '3.attn1.to_v', '3.1.transformer_blocks.0.attn2.to_v', '7.attn2.to_v', '4.attn1.to_k', '3.1.transformer_blocks.0.attn1.to_v', '1.1.transformer_blocks.0.attn1.to_q', '8.attn1.to_out.0', '1.1.transformer_blocks.0.ff.net.2', '2.ff.net.2', '3.1.transformer_blocks.0.attn2.to_out.0', '5.1.transformer_blocks.0.attn1.to_v', '8.attn2.to_v', '2.1.transformer_blocks.0.attn2.to_out.0', '2.attn1.to_q', '2.attn1.to_k', '3.1.transformer_blocks.0.attn1.to_k', '4.1.transformer_blocks.0.attn1.to_q', '6.attn1.to_v', '5.1.transformer_blocks.0.attn2.to_v', '2.attn1.to_v', '8.attn2.to_out.0', '2.attn2.to_k', '2.attn1.to_out.0', '7.attn1.to_out.0', '2.1.transformer_blocks.0.attn1.to_k', '6.attn1.to_out.0', '4.1.transformer_blocks.0.attn1.to_k', '3.attn1.to_q', '8.1.transformer_blocks.0.ff.net.0.proj', '2.1.transformer_blocks.0.attn1.to_v', '3.attn1.to_k', '1.1.transformer_blocks.0.attn2.to_k', '4.attn2.to_k', '5.attn1.to_out.0', 'mid_block.1.transformer_blocks.0.attn1.to_out.0', '1.attn2.to_k', '7.ff.net.0.proj', '0.1.transformer_blocks.0.attn1.to_v', '0.1.transformer_blocks.0.ff.net.2', 'mid_block.1.transformer_blocks.0.ff.net.0.proj', '0.1.proj_in', '2.attn2.to_q', '3.1.transformer_blocks.0.attn2.to_k', '8.1.transformer_blocks.0.attn1.to_q', '8.ff.net.0.proj', '3.1.transformer_blocks.0.attn1.to_q', '0.1.transformer_blocks.0.attn2.to_k', '1.ff.net.2', '5.1.transformer_blocks.0.attn1.to_q', '6.attn2.to_k', '3.1.transformer_blocks.0.ff.net.0.proj', 'mid_block.1.transformer_blocks.0.attn1.to_q', '5.1.transformer_blocks.0.attn1.to_k', '2.1.proj_out', 'mid_block.1.proj_out', '2.attn2.to_v', '1.attn1.to_v', '4.attn1.to_q', '1.1.transformer_blocks.0.ff.net.0.proj', '4.attn2.to_v', '5.1.transformer_blocks.0.attn2.to_out.0', '1.1.transformer_blocks.0.attn1.to_v', '4.1.transformer_blocks.0.attn2.to_k', '5.1.transformer_blocks.0.attn2.to_q', 'mid_block.1.transformer_blocks.0.attn2.to_q', '5.attn1.to_q', '9.attn1.to_q', '9.attn2.to_q', '1.attn2.to_q', '3.1.proj_out', '5.attn1.to_k', '7.1.transformer_blocks.0.attn2.to_q', '4.1.transformer_blocks.0.attn2.to_v', '3.1.transformer_blocks.0.attn2.to_q', '9.attn2.to_v', '6.attn2.to_v', '7.1.transformer_blocks.0.attn2.to_k', '3.1.transformer_blocks.0.ff.net.2', '0.1.transformer_blocks.0.attn2.to_out.0', '3.attn2.to_q', '4.ff.net.0.proj', '2.1.transformer_blocks.0.attn1.to_out.0', '6.attn2.to_q', '4.attn1.to_out.0', 'mid_block.1.transformer_blocks.0.attn2.to_out.0', '0.1.transformer_blocks.0.ff.net.0.proj', '5.ff.net.2', '8.1.proj_in', '7.1.transformer_blocks.0.ff.net.0.proj', '7.attn2.to_q', '9.attn1.to_out.0', '1.1.transformer_blocks.0.attn2.to_out.0', '1.1.proj_out', '5.1.transformer_blocks.0.attn1.to_out.0', '8.1.transformer_blocks.0.attn1.to_v', '9.ff.net.2', '5.1.transformer_blocks.0.ff.net.0.proj', '2.ff.net.0.proj', '5.attn2.to_q', '3.1.proj_in', '2.1.proj_in', '4.1.transformer_blocks.0.ff.net.2', '3.attn2.to_k', '4.1.transformer_blocks.0.attn1.to_out.0', '8.1.proj_out', 'mid_block.1.transformer_blocks.0.attn1.to_v', '0.1.transformer_blocks.0.attn2.to_v', '7.1.proj_out', '2.1.transformer_blocks.0.attn1.to_q', '8.1.transformer_blocks.0.attn2.to_out.0', 'mid_block.1.transformer_blocks.0.attn1.to_k', '4.attn2.to_out.0'} not found in the base model. Please check the target modules and try again.
+2025-11-05 23:46:31 - IMAGE_GENERATOR - ✅ LoRA загружен: pixel_art
+2025-11-05 23:46:31 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: watercolor
+2025-11-05 23:46:31 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\watercolor.safetensors
+2025-11-05 23:46:32 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 401 Client Error: Unauthorized for url: https://huggingface.co/artificialguybr/WaterColor-Lora/resolve/main/WaterColor.safetensors
+2025-11-05 23:46:32 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: watercolor
+2025-11-05 23:46:32 - Бот запускается...
+2025-11-05 23:46:32 - Команды меню установлены
+2025-11-05 23:46:32 - Команды бота успешно установлены
+2025-11-05 23:46:32 - Бот успешно запущен
+2025-11-05 23:48:30 - Бот выключается...
+2025-11-05 23:48:30 - Выключение бота завершено
+2025-11-05 23:49:03 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:49:03 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-05 23:49:06 - IMAGE_GENERATOR - ✅ Успешно загружена: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:49:06 - IMAGE_GENERATOR - 💾 Модель сохранена в: D:/huggingface_cache
+2025-11-05 23:49:06 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: anime
+2025-11-05 23:49:06 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\anime.safetensors
+2025-11-05 23:49:06 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 401 Client Error: Unauthorized for url: https://huggingface.co/ostris/anime-style-lora/resolve/main/anime_style.safetensors
+2025-11-05 23:49:06 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: anime
+2025-11-05 23:49:06 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-05 23:49:06 - IMAGE_GENERATOR - ❌ Ошибка применения LoRA: Target modules {'5.1.transformer_blocks.0.attn2.to_q', '7.1.transformer_blocks.0.attn2.to_k', '8.ff.net.0.proj', '4.1.transformer_blocks.0.ff.net.0.proj', '1.1.transformer_blocks.0.attn2.to_out.0', '6.ff.net.2', '4.ff.net.2', '0.1.transformer_blocks.0.attn1.to_v', '2.attn1.to_out.0', '2.1.transformer_blocks.0.attn2.to_k', 'mid_block.1.proj_in', '3.attn1.to_k', '3.1.transformer_blocks.0.ff.net.2', '3.attn1.to_q', '3.1.transformer_blocks.0.attn1.to_out.0', '4.1.transformer_blocks.0.attn1.to_out.0', '3.1.transformer_blocks.0.attn2.to_k', '4.1.transformer_blocks.0.attn2.to_k', '1.1.transformer_blocks.0.attn2.to_q', '9.attn1.to_q', '1.attn2.to_v', '3.attn1.to_out.0', '6.attn1.to_v', '7.1.transformer_blocks.0.attn1.to_v', '9.attn2.to_v', '2.ff.net.2', '3.1.transformer_blocks.0.attn1.to_q', 'mid_block.1.transformer_blocks.0.ff.net.2', '1.1.proj_out', '2.attn1.to_k', '5.1.transformer_blocks.0.attn1.to_q', '9.attn1.to_out.0', '7.1.transformer_blocks.0.ff.net.2', '5.attn2.to_v', 'mid_block.1.transformer_blocks.0.ff.net.0.proj', '7.1.transformer_blocks.0.attn2.to_out.0', '9.attn2.to_k', '8.attn1.to_v', '1.attn2.to_out.0', '5.ff.net.0.proj', '3.ff.net.0.proj', '7.attn2.to_out.0', '1.1.transformer_blocks.0.attn1.to_k', '1.attn1.to_v', '1.1.proj_in', '2.1.transformer_blocks.0.ff.net.2', '4.ff.net.0.proj', '1.attn1.to_out.0', '8.attn2.to_out.0', '2.1.transformer_blocks.0.attn1.to_out.0', '4.1.proj_out', '8.1.transformer_blocks.0.ff.net.0.proj', '4.attn2.to_out.0', '7.1.transformer_blocks.0.attn2.to_q', '7.1.transformer_blocks.0.attn2.to_v', 'mid_block.1.transformer_blocks.0.attn1.to_k', '3.attn1.to_v', '8.1.transformer_blocks.0.attn2.to_q', '5.ff.net.2', '5.1.transformer_blocks.0.attn2.to_v', '3.1.transformer_blocks.0.attn1.to_k', '6.attn1.to_k', '7.attn2.to_v', '8.attn2.to_v', '4.1.transformer_blocks.0.attn1.to_k', '7.1.proj_out', '7.attn1.to_v', '2.ff.net.0.proj', 'mid_block.1.transformer_blocks.0.attn2.to_out.0', '4.1.transformer_blocks.0.ff.net.2', '5.1.transformer_blocks.0.attn1.to_k', '2.attn2.to_k', '8.1.transformer_blocks.0.attn2.to_out.0', '9.attn2.to_out.0', '7.ff.net.0.proj', '8.1.transformer_blocks.0.attn1.to_q', '1.1.transformer_blocks.0.attn1.to_q', '5.1.transformer_blocks.0.attn1.to_v', '1.attn1.to_k', '4.attn1.to_q', '8.1.transformer_blocks.0.attn1.to_k', 'mid_block.1.transformer_blocks.0.attn2.to_q', '7.ff.net.2', 'mid_block.1.transformer_blocks.0.attn1.to_out.0', '2.attn2.to_out.0', '7.attn1.to_out.0', '2.attn2.to_v', '2.1.transformer_blocks.0.ff.net.0.proj', '2.1.transformer_blocks.0.attn1.to_v', '2.1.transformer_blocks.0.attn2.to_v', '0.1.transformer_blocks.0.attn1.to_k', '0.1.transformer_blocks.0.ff.net.0.proj', '8.attn1.to_out.0', '4.attn2.to_v', 'mid_block.1.transformer_blocks.0.attn1.to_q', '5.1.proj_in', 'mid_block.1.transformer_blocks.0.attn1.to_v', '3.attn2.to_q', '2.1.proj_out', 'mid_block.1.proj_out', '4.1.transformer_blocks.0.attn1.to_v', 'mid_block.1.transformer_blocks.0.attn2.to_v', '6.attn1.to_out.0', '3.1.transformer_blocks.0.ff.net.0.proj', '4.attn2.to_q', '3.1.transformer_blocks.0.attn2.to_out.0', '1.1.transformer_blocks.0.attn1.to_out.0', '2.attn2.to_q', '8.attn2.to_k', '3.attn2.to_k', '5.attn2.to_out.0', '3.1.proj_out', '4.attn1.to_out.0', '8.1.transformer_blocks.0.ff.net.2', '9.attn1.to_v', '9.ff.net.2', '4.1.transformer_blocks.0.attn1.to_q', '6.attn2.to_out.0', '3.1.transformer_blocks.0.attn2.to_q', '5.1.transformer_blocks.0.ff.net.2', '9.attn2.to_q', '1.ff.net.2', '1.attn2.to_k', '1.1.transformer_blocks.0.attn2.to_k', '3.1.proj_in', '2.1.transformer_blocks.0.attn1.to_k', '7.attn2.to_q', '5.attn2.to_q', '0.1.transformer_blocks.0.ff.net.2', '7.1.transformer_blocks.0.attn1.to_q', '8.1.transformer_blocks.0.attn1.to_v', '5.1.transformer_blocks.0.attn2.to_out.0', '4.attn1.to_k', '6.attn2.to_v', '8.1.proj_out', '0.1.proj_out', '2.1.transformer_blocks.0.attn2.to_q', '0.1.transformer_blocks.0.attn2.to_v', '8.1.transformer_blocks.0.attn2.to_v', '1.1.transformer_blocks.0.attn1.to_v', '5.attn1.to_out.0', '2.1.transformer_blocks.0.attn1.to_q', '7.attn1.to_k', '3.attn2.to_out.0', '5.1.transformer_blocks.0.attn2.to_k', '0.1.proj_in', '0.1.transformer_blocks.0.attn1.to_out.0', '3.1.transformer_blocks.0.attn2.to_v', '1.attn2.to_q', '4.attn2.to_k', '9.ff.net.0.proj', '0.1.transformer_blocks.0.attn1.to_q', '5.attn1.to_q', '7.attn2.to_k', '7.1.transformer_blocks.0.attn1.to_out.0', '4.1.proj_in', '4.1.transformer_blocks.0.attn2.to_v', '0.1.transformer_blocks.0.attn2.to_k', '6.ff.net.0.proj', '5.attn1.to_k', '4.1.transformer_blocks.0.attn2.to_q', '2.attn1.to_v', '8.attn1.to_k', '6.attn2.to_k', '8.1.proj_in', '4.attn1.to_v', '1.ff.net.0.proj', '8.1.transformer_blocks.0.attn2.to_k', '9.attn1.to_k', '3.1.transformer_blocks.0.attn1.to_v', '3.ff.net.2', '5.attn2.to_k', '8.ff.net.2', '8.1.transformer_blocks.0.attn1.to_out.0', '0.1.transformer_blocks.0.attn2.to_q', '8.attn1.to_q', '5.1.transformer_blocks.0.attn1.to_out.0', '7.1.transformer_blocks.0.ff.net.0.proj', '2.attn1.to_q', '0.1.transformer_blocks.0.attn2.to_out.0', '5.1.proj_out', '2.1.transformer_blocks.0.attn2.to_out.0', '1.1.transformer_blocks.0.attn2.to_v', '8.attn2.to_q', '4.1.transformer_blocks.0.attn2.to_out.0', '2.1.proj_in', '6.attn2.to_q', '1.1.transformer_blocks.0.ff.net.0.proj', '5.1.transformer_blocks.0.ff.net.0.proj', '1.attn1.to_q', '1.1.transformer_blocks.0.ff.net.2', 'mid_block.1.transformer_blocks.0.attn2.to_k', '3.attn2.to_v', '7.1.proj_in', '6.attn1.to_q', '5.attn1.to_v', '7.attn1.to_q', '7.1.transformer_blocks.0.attn1.to_k'} not found in the base model. Please check the target modules and try again.
+2025-11-05 23:49:06 - IMAGE_GENERATOR - ✅ LoRA загружен: pixel_art
+2025-11-05 23:49:06 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: watercolor
+2025-11-05 23:49:06 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\watercolor.safetensors
+2025-11-05 23:49:07 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 401 Client Error: Unauthorized for url: https://huggingface.co/artificialguybr/WaterColor-Lora/resolve/main/WaterColor.safetensors
+2025-11-05 23:49:07 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: watercolor
+2025-11-05 23:49:07 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-05 23:49:08 - IMAGE_GENERATOR - ❌ Ошибка применения LoRA: Unable to load weights from checkpoint file for 'D:/lora_models\realistic.safetensors' at 'D:/lora_models\realistic.safetensors'. 
+2025-11-05 23:49:08 - IMAGE_GENERATOR - ✅ LoRA загружен: realistic
+2025-11-05 23:49:08 - Бот запускается...
+2025-11-05 23:49:09 - Команды меню установлены
+2025-11-05 23:49:09 - Команды бота успешно установлены
+2025-11-05 23:49:09 - Бот успешно запущен
+2025-11-05 23:51:14 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:51:14 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-05 23:51:18 - IMAGE_GENERATOR - ✅ Успешно загружена: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:51:18 - IMAGE_GENERATOR - 💾 Модель сохранена в: D:/huggingface_cache
+2025-11-05 23:51:18 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: anime
+2025-11-05 23:51:18 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\anime.safetensors
+2025-11-05 23:51:18 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 401 Client Error: Unauthorized for url: https://huggingface.co/ostris/anime-style-lora/resolve/main/anime_style.safetensors
+2025-11-05 23:51:18 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: anime
+2025-11-05 23:51:18 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-05 23:51:18 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-05 23:51:18 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-05 23:51:18 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: watercolor
+2025-11-05 23:51:18 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\watercolor.safetensors
+2025-11-05 23:51:19 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 401 Client Error: Unauthorized for url: https://huggingface.co/artificialguybr/WaterColor-Lora/resolve/main/WaterColor.safetensors
+2025-11-05 23:51:19 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: watercolor
+2025-11-05 23:51:19 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-05 23:51:19 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-05 23:51:19 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-05 23:51:19 - Бот запускается...
+2025-11-05 23:51:19 - Команды меню установлены
+2025-11-05 23:51:19 - Команды бота успешно установлены
+2025-11-05 23:51:19 - Бот успешно запущен
+2025-11-05 23:59:38 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:59:38 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-05 23:59:41 - IMAGE_GENERATOR - ✅ Успешно загружена: OFA-Sys/small-stable-diffusion-v0
+2025-11-05 23:59:41 - IMAGE_GENERATOR - 💾 Модель сохранена в: D:/huggingface_cache
+2025-11-05 23:59:41 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: anime
+2025-11-05 23:59:41 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\anime.safetensors
+2025-11-05 23:59:41 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 404 Client Error: Not Found for url: https://huggingface.co/ostris/ikea-instructions-lora-sdxl/resolve/main/ikea_instructions_xl.safetensors
+2025-11-05 23:59:41 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: anime
+2025-11-05 23:59:41 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-05 23:59:41 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-05 23:59:41 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-05 23:59:41 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: watercolor
+2025-11-05 23:59:41 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\watercolor.safetensors
+2025-11-05 23:59:41 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 404 Client Error: Not Found for url: https://huggingface.co/fal/Watercolor-Art-Kontext-Dev-LoRA/resolve/main/watercolor_art_lora.safetensors
+2025-11-05 23:59:41 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: watercolor
+2025-11-05 23:59:41 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-05 23:59:41 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-05 23:59:41 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-05 23:59:41 - Бот запускается...
+2025-11-05 23:59:41 - Команды меню установлены
+2025-11-05 23:59:41 - Команды бота успешно установлены
+2025-11-05 23:59:41 - Бот успешно запущен
+2025-11-06 01:07:10 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 01:07:10 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 01:31:49 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 01:31:49 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 01:37:43 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 01:37:43 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 01:52:02 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 01:52:02 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 01:55:43 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 01:55:43 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 01:56:36 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 01:56:36 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 01:57:44 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 01:57:44 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:03:27 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:03:27 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:03:27 - IMAGE_GENERATOR - ❌ Не удалось: stabilityai/stable-diffusion-2-1 - 
+2025-11-06 02:03:27 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: runwayml/stable-diffusion-v1-5
+2025-11-06 02:03:27 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:08:10 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:08:10 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:10:09 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:10:09 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:10:10 - IMAGE_GENERATOR - ✅ Успешно загружена: stabilityai/stable-diffusion-2-1
+2025-11-06 02:10:10 - IMAGE_GENERATOR - 💾 Модель сохранена в: D:/huggingface_cache
+2025-11-06 02:10:10 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: anime
+2025-11-06 02:10:10 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\anime.safetensors
+2025-11-06 02:10:11 - IMAGE_GENERATOR - ✅ LoRA сохранен: D:/lora_models\anime.safetensors
+2025-11-06 02:10:11 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 02:10:11 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 02:10:11 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 02:10:11 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 02:10:11 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 02:10:11 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: watercolor
+2025-11-06 02:10:11 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\watercolor.safetensors
+2025-11-06 02:10:11 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 401 Client Error: Unauthorized for url: https://huggingface.co/jomili/water_style/resolve/main/water_style.safetensors
+2025-11-06 02:10:11 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: watercolor
+2025-11-06 02:10:11 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 02:10:11 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 02:10:11 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 02:10:11 - Бот запускается...
+2025-11-06 02:10:11 - Команды меню установлены
+2025-11-06 02:10:11 - Команды бота успешно установлены
+2025-11-06 02:10:11 - Бот успешно запущен
+2025-11-06 02:13:02 - Бот выключается...
+2025-11-06 02:13:02 - Выключение бота завершено
+2025-11-06 02:13:54 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:13:54 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:15:12 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:15:12 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:19:02 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:19:02 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:20:17 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:20:17 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:22:13 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:22:13 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:23:09 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:23:09 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:26:07 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:26:07 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:29:09 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:29:09 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:29:39 - IMAGE_GENERATOR - ❌ Не удалось: stabilityai/stable-diffusion-2-1 - 
+2025-11-06 02:29:39 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: alvarobaron/dog-sd-xl
+2025-11-06 02:29:39 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:29:39 - IMAGE_GENERATOR - ❌ Не удалось: alvarobaron/dog-sd-xl - Cannot load model alvarobaron/dog-sd-xl: model is not cached locally and an error occurred while trying to fetch metadata from the Hub. Please check out the root cause in the stacktrace above.
+2025-11-06 02:29:39 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: OFA-Sys/small-stable-diffusion-v0
+2025-11-06 02:29:39 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:33:42 - IMAGE_GENERATOR - ✅ Успешно загружена: OFA-Sys/small-stable-diffusion-v0
+2025-11-06 02:33:42 - IMAGE_GENERATOR - 💾 Модель сохранена в: D:/huggingface_cache
+2025-11-06 02:33:42 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 02:33:42 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 02:33:42 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 02:33:42 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 02:33:42 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 02:33:42 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 02:33:42 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: watercolor
+2025-11-06 02:33:42 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\watercolor.safetensors
+2025-11-06 02:33:42 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 404 Client Error: Not Found for url: https://huggingface.co/bguisard/stable-diffusion-nano-2-1/resolve/main/model.safetensors
+2025-11-06 02:33:42 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: watercolor
+2025-11-06 02:33:42 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 02:33:42 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 02:33:42 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 02:33:42 - Бот запускается...
+2025-11-06 02:33:42 - Команды меню установлены
+2025-11-06 02:33:42 - Команды бота успешно установлены
+2025-11-06 02:33:42 - Бот успешно запущен
+2025-11-06 02:35:33 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:35:33 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:47:00 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:47:00 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:59:29 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 02:59:29 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:59:30 - IMAGE_GENERATOR - ❌ Не удалось загрузить: stabilityai/stable-diffusion-2-1 - 
+2025-11-06 02:59:30 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: alvarobaron/dog-sd-xl
+2025-11-06 02:59:30 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:59:31 - IMAGE_GENERATOR - ❌ Не удалось загрузить: alvarobaron/dog-sd-xl - Cannot load model alvarobaron/dog-sd-xl: model is not cached locally and an error occurred while trying to fetch metadata from the Hub. Please check out the root cause in the stacktrace above.
+2025-11-06 02:59:31 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: black-forest-labs/FLUX.1-schnell
+2025-11-06 02:59:31 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:59:31 - IMAGE_GENERATOR - ❌ Не удалось загрузить: black-forest-labs/FLUX.1-schnell - 401 Client Error. (Request ID: Root=1-690be4e3-50e36590134ef99f657e8690;4630660f-603f-4c4b-8f2b-f0e43be04d74)
+
+Cannot access gated repo for url https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/model_index.json.
+Access to model black-forest-labs/FLUX.1-schnell is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-11-06 02:59:31 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: sd_xl_base_1.0.safetensors
+2025-11-06 02:59:31 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 02:59:31 - IMAGE_GENERATOR - ❌ Не удалось загрузить: sd_xl_base_1.0.safetensors - Cannot load model sd_xl_base_1.0.safetensors: model is not cached locally and an error occurred while trying to fetch metadata from the Hub. Please check out the root cause in the stacktrace above.
+2025-11-06 02:59:31 - IMAGE_GENERATOR - ⚠️ Не удалось загрузить ни одну модель!
+2025-11-06 02:59:31 - IMAGE_GENERATOR - ⚠️ Пропускаем загрузку LoRA: базовая модель не загружена
+2025-11-06 02:59:31 - Бот запускается...
+2025-11-06 02:59:31 - Команды меню установлены
+2025-11-06 02:59:31 - Команды бота успешно установлены
+2025-11-06 02:59:31 - Бот успешно запущен
+2025-11-06 03:03:14 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 03:03:14 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 03:03:15 - IMAGE_GENERATOR - ❌ Не удалось загрузить: stabilityai/stable-diffusion-2-1 - 
+2025-11-06 03:03:15 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: alvarobaron/dog-sd-xl
+2025-11-06 03:03:15 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 03:03:15 - IMAGE_GENERATOR - ❌ Не удалось загрузить: alvarobaron/dog-sd-xl - Cannot load model alvarobaron/dog-sd-xl: model is not cached locally and an error occurred while trying to fetch metadata from the Hub. Please check out the root cause in the stacktrace above.
+2025-11-06 03:03:15 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: black-forest-labs/FLUX.1-schnell
+2025-11-06 03:03:15 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 03:03:16 - IMAGE_GENERATOR - ❌ Не удалось загрузить: black-forest-labs/FLUX.1-schnell - 401 Client Error. (Request ID: Root=1-690be5c3-49de5a005e7b19842f348a0c;626dfeff-ef13-44ad-934a-be8b735b0bd4)
+
+Cannot access gated repo for url https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/model_index.json.
+Access to model black-forest-labs/FLUX.1-schnell is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-11-06 03:03:16 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: sd_xl_base_1.0.safetensors
+2025-11-06 03:03:16 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 03:03:16 - IMAGE_GENERATOR - ❌ Не удалось загрузить: sd_xl_base_1.0.safetensors - Cannot load model sd_xl_base_1.0.safetensors: model is not cached locally and an error occurred while trying to fetch metadata from the Hub. Please check out the root cause in the stacktrace above.
+2025-11-06 03:03:16 - IMAGE_GENERATOR - ⚠️ Не удалось загрузить ни одну модель!
+2025-11-06 03:03:16 - IMAGE_GENERATOR - ⚠️ Пропускаем загрузку LoRA: базовая модель не загружена
+2025-11-06 03:03:16 - Бот запускается...
+2025-11-06 03:03:16 - Команды меню установлены
+2025-11-06 03:03:16 - Команды бота успешно установлены
+2025-11-06 03:03:16 - Бот успешно запущен
+2025-11-06 03:04:32 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: stabilityai/stable-diffusion-2-1
+2025-11-06 03:04:32 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 03:11:32 - IMAGE_GENERATOR - ✅ Успешно загружена: stabilityai/stable-diffusion-2-1
+2025-11-06 03:11:32 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 03:11:32 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 03:11:32 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 03:11:32 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 03:11:32 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 03:11:32 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 03:11:32 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: watercolor
+2025-11-06 03:11:32 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\watercolor.safetensors
+2025-11-06 03:11:32 - IMAGE_GENERATOR - ❌ Ошибка скачивания LoRA: 401 Client Error: Unauthorized for url: https://huggingface.co/bguisard/stable-diffusion-2-1/resolve/main/model.safetensors
+2025-11-06 03:11:32 - IMAGE_GENERATOR - ⚠️ LoRA файл не найден: watercolor
+2025-11-06 03:11:32 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 03:11:32 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 03:11:32 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 03:11:32 - Бот запускается...
+2025-11-06 03:11:32 - Команды меню установлены
+2025-11-06 03:11:32 - Команды бота успешно установлены
+2025-11-06 03:11:32 - Бот успешно запущен
+2025-11-06 03:31:21 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 03:31:21 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 03:41:50 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 03:41:50 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 03:41:52 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 03:41:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 03:41:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 03:41:52 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 03:41:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 03:41:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 03:41:52 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 03:41:52 - IMAGE_GENERATOR - 📥 Скачиваю LoRA: watercolor
+2025-11-06 03:41:52 - IMAGE_GENERATOR - 📁 Сохраняю в: D:/lora_models\watercolor.safetensors
+2025-11-06 03:41:52 - IMAGE_GENERATOR - ✅ LoRA сохранен: D:/lora_models\watercolor.safetensors
+2025-11-06 03:41:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 03:41:52 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 03:41:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 03:41:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 03:41:52 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 03:41:52 - Бот запускается...
+2025-11-06 03:41:53 - Команды меню установлены
+2025-11-06 03:41:53 - Команды бота успешно установлены
+2025-11-06 03:41:53 - Бот успешно запущен
+2025-11-06 13:03:46 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 13:03:46 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 13:03:48 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 13:03:48 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 13:03:48 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 13:03:48 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 13:03:48 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 13:03:48 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 13:03:48 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 13:03:48 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 13:03:48 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 13:03:48 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 13:03:48 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 13:03:48 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 13:03:48 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 13:03:48 - Бот запускается...
+2025-11-06 13:03:48 - Команды меню установлены
+2025-11-06 13:03:48 - Команды бота успешно установлены
+2025-11-06 13:03:48 - Бот успешно запущен
+2025-11-06 13:09:07 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-06 13:09:15 - Текст от 1294714607 (Artyom_Leader): 'Слон...'
+2025-11-06 13:09:15 - Генерация изображения для 1294714607 (Artyom_Leader): 'Слон...'
+2025-11-06 13:09:16 - IMAGE_GENERATOR - 🎯 Приоритет: КАЧЕСТВО (режим HQ)
+2025-11-06 13:09:16 - IMAGE_GENERATOR - 🎨 Генерация HQ: Слон, masterpiece, best quality, ultra detailed, 8K, sharp focus, professional photography, intricate details, highly detailed, cinematic lighting, perfect composition
+2025-11-06 13:13:04 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 13:13:04 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 13:13:59 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 13:13:59 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 13:14:01 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 13:14:01 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 13:14:01 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 13:14:01 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 13:14:01 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 13:14:01 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 13:14:01 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 13:14:01 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 13:14:01 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 13:14:01 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 13:14:01 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 13:14:01 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 13:14:01 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 13:14:01 - Бот запускается...
+2025-11-06 13:14:01 - Команды меню установлены
+2025-11-06 13:14:01 - Команды бота успешно установлены
+2025-11-06 13:14:01 - Бот успешно запущен
+2025-11-06 13:14:29 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-06 13:14:34 - Текст от 1294714607 (Artyom_Leader): 'Слон...'
+2025-11-06 13:14:34 - Генерация изображения для 1294714607 (Artyom_Leader): 'Слон...'
+2025-11-06 13:14:34 - IMAGE_GENERATOR - 🎯 Приоритет: КАЧЕСТВО (режим HQ)
+2025-11-06 13:14:34 - IMAGE_GENERATOR - 🎨 Генерация HQ: Слон, masterpiece, best quality, ultra detailed, 8K, sharp focus, professional photography, intricate details, highly detailed, cinematic lighting, perfect composition
+2025-11-06 13:25:27 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 13:25:27 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 13:25:29 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 13:25:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 13:25:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 13:25:29 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 13:25:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 13:25:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 13:25:29 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 13:25:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 13:25:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 13:25:29 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 13:25:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 13:25:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 13:25:29 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 13:25:29 - Бот запускается...
+2025-11-06 13:25:29 - Команды меню установлены
+2025-11-06 13:25:29 - Команды бота успешно установлены
+2025-11-06 13:25:29 - Бот успешно запущен
+2025-11-06 13:25:39 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-06 13:25:42 - Текст от 1294714607 (Artyom_Leader): 'Слон...'
+2025-11-06 13:25:42 - Генерация изображения для 1294714607 (Artyom_Leader): 'Слон...'
+2025-11-06 13:25:42 - IMAGE_GENERATOR - 🎯 Приоритет: КАЧЕСТВО (режим HQ)
+2025-11-06 13:25:42 - IMAGE_GENERATOR - 🎨 Генерация HQ: Слон, masterpiece, best quality, ultra detailed, 8K, sharp focus, professional photography, intricate details, highly detailed, cinematic lighting, perfect composition
+2025-11-06 13:47:12 - IMAGE_GENERATOR - 💾 HQ изображение сохранено: generated_images\hq_1294714607_134712.png
+2025-11-06 13:47:12 - IMAGE_GENERATOR - ✅ Изображение премиум-качества создано!
+2025-11-06 13:47:15 - Изображение успешно создано для 1294714607 (Artyom_Leader)
+2025-11-06 13:51:18 - Текст от 1294714607 (Artyom_Leader): 'Нарисовать красивую тянку в школьной форме...'
+2025-11-06 13:51:18 - Игнорировано сообщение от 1294714607 (Artyom_Leader)
+2025-11-06 13:51:23 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-06 13:51:28 - Текст от 1294714607 (Artyom_Leader): 'Нарисовать красивую тянку в школьной форме...'
+2025-11-06 13:51:28 - Генерация изображения для 1294714607 (Artyom_Leader): 'Нарисовать красивую тянку в школьной форме...'
+2025-11-06 13:51:28 - IMAGE_GENERATOR - 🎯 Приоритет: КАЧЕСТВО (режим HQ)
+2025-11-06 13:51:28 - IMAGE_GENERATOR - 🎨 Генерация HQ: Нарисовать красивую тянку в школьной форме, masterpiece, best quality, ultra detailed, 8K, sharp focus, professional photography, intricate details, highly detailed, cinematic lighting, perfect composition
+2025-11-06 14:16:12 - IMAGE_GENERATOR - 💾 HQ изображение сохранено: generated_images\hq_1294714607_141611.png
+2025-11-06 14:16:12 - IMAGE_GENERATOR - ✅ Изображение премиум-качества создано!
+2025-11-06 14:16:14 - Изображение успешно создано для 1294714607 (Artyom_Leader)
+2025-11-06 14:24:06 - Бот выключается...
+2025-11-06 14:24:06 - Выключение бота завершено
+2025-11-06 16:53:14 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 16:53:14 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 16:53:52 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 16:53:52 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 16:53:54 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 16:53:54 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 16:53:54 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 16:53:54 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 16:53:54 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 16:53:54 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 16:53:54 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 16:53:54 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 16:53:54 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 16:53:54 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 16:53:54 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 16:53:54 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 16:53:54 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 16:53:54 - Бот запускается...
+2025-11-06 16:53:54 - Команды меню установлены
+2025-11-06 16:53:54 - Команды бота успешно установлены
+2025-11-06 16:53:54 - Бот успешно запущен
+2025-11-06 16:54:32 - Текст от 1294714607 (Artyom_Leader): 'Сгенерировать пароль...'
+2025-11-06 16:54:32 - Игнорировано сообщение от 1294714607 (Artyom_Leader)
+2025-11-06 16:54:56 - Команда START от 1294714607 (Artyom_Leader)
+2025-11-06 16:54:58 - Команда START от 1294714607 (Artyom_Leader)
+2025-11-06 16:55:02 - Текст от 1294714607 (Artyom_Leader): 'Сгенерировать пароль...'
+2025-11-06 16:55:02 - Игнорировано сообщение от 1294714607 (Artyom_Leader)
+2025-11-06 16:55:27 - Текст от 1294714607 (Artyom_Leader): '/pass8...'
+2025-11-06 16:55:27 - Игнорировано сообщение от 1294714607 (Artyom_Leader)
+2025-11-06 16:58:54 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 16:58:54 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 16:58:56 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 16:58:56 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 16:58:56 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 16:58:56 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 16:58:56 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 16:58:56 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 16:58:56 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 16:58:56 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 16:58:56 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 16:58:56 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 16:58:56 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 16:58:56 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 16:58:56 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 16:58:56 - Бот запускается...
+2025-11-06 16:58:56 - Команды меню установлены
+2025-11-06 16:58:56 - Команды бота успешно установлены
+2025-11-06 16:58:56 - Бот успешно запущен
+2025-11-06 16:59:01 - Текст от 1294714607 (Artyom_Leader): '/pass8...'
+2025-11-06 16:59:01 - Обычное текстовое сообщение от 1294714607 (Artyom_Leader)
+2025-11-06 16:59:15 - Команда START от 1294714607 (Artyom_Leader)
+2025-11-06 16:59:20 - Текст от 1294714607 (Artyom_Leader): 'Сгенерировать пароль...'
+2025-11-06 16:59:20 - Обычное текстовое сообщение от 1294714607 (Artyom_Leader)
+2025-11-06 17:00:12 - Бот выключается...
+2025-11-06 17:00:12 - Выключение бота завершено
+2025-11-06 17:00:41 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:00:41 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 17:00:43 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:00:43 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 17:00:43 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 17:00:43 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 17:00:43 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:00:43 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:00:43 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 17:00:43 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 17:00:43 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 17:00:43 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 17:00:43 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 17:00:43 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 17:00:43 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 17:00:43 - Бот запускается...
+2025-11-06 17:00:43 - Команды меню установлены
+2025-11-06 17:00:43 - Команды бота успешно установлены
+2025-11-06 17:00:43 - Бот успешно запущен
+2025-11-06 17:00:49 - Команда START от 1294714607 (Artyom_Leader)
+2025-11-06 17:00:52 - Текст от 1294714607 (Artyom_Leader): 'Сгенерировать пароль...'
+2025-11-06 17:00:52 - Текст сообщение от 1294714607 (Artyom_Leader) обработано
+2025-11-06 17:00:59 - Текст от 1294714607 (Artyom_Leader): '/pass8...'
+2025-11-06 17:00:59 - Текст сообщение от 1294714607 (Artyom_Leader) обработано
+2025-11-06 17:02:40 - Бот выключается...
+2025-11-06 17:02:40 - Выключение бота завершено
+2025-11-06 17:03:17 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:03:17 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 17:03:20 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:03:20 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 17:03:20 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 17:03:20 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 17:03:20 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:03:20 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:03:20 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 17:03:20 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 17:03:20 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 17:03:20 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 17:03:20 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 17:03:20 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 17:03:20 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 17:03:20 - Бот запускается...
+2025-11-06 17:03:20 - Команды меню установлены
+2025-11-06 17:03:20 - Команды бота успешно установлены
+2025-11-06 17:03:20 - Бот успешно запущен
+2025-11-06 17:03:36 - Команда START от 1294714607 (Artyom_Leader)
+2025-11-06 17:03:37 - Текст от 1294714607 (Artyom_Leader): '/pass8...'
+2025-11-06 17:03:37 - Команда /pass8 передана на обработку хэндлерам
+2025-11-06 17:09:52 - Бот выключается...
+2025-11-06 17:09:52 - Выключение бота завершено
+2025-11-06 17:10:21 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:10:21 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 17:10:22 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:10:23 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 17:10:23 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 17:10:23 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 17:10:23 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:10:23 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:10:23 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 17:10:23 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 17:10:23 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 17:10:23 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 17:10:23 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 17:10:23 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 17:10:23 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 17:10:23 - Бот запускается...
+2025-11-06 17:10:23 - Команды меню установлены
+2025-11-06 17:10:23 - Команды бота успешно установлены
+2025-11-06 17:10:23 - Бот успешно запущен
+2025-11-06 17:10:27 - Команда START от 1294714607 (Artyom_Leader)
+2025-11-06 17:10:29 - Текст от 1294714607 (Artyom_Leader): 'Сгенерировать пароль...'
+2025-11-06 17:10:29 - Обычное текстовое сообщение от 1294714607 (Artyom_Leader)
+2025-11-06 17:10:38 - Текст от 1294714607 (Artyom_Leader): '/pass8...'
+2025-11-06 17:10:38 - Команда /pass8 передана на обработку хэндлерам
+2025-11-06 17:11:12 - Бот выключается...
+2025-11-06 17:11:12 - Выключение бота завершено
+2025-11-06 17:11:43 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:11:43 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 17:11:46 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:11:46 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 17:11:46 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 17:11:46 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 17:11:46 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:11:46 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:11:46 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 17:11:46 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 17:11:46 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 17:11:46 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 17:11:46 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 17:11:46 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 17:11:46 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 17:11:46 - Бот запускается...
+2025-11-06 17:11:47 - Команды меню установлены
+2025-11-06 17:11:47 - Команды бота успешно установлены
+2025-11-06 17:11:47 - Бот успешно запущен
+2025-11-06 17:11:49 - Текст от 1294714607 (Artyom_Leader): '/pass8...'
+2025-11-06 17:11:49 - Команда /pass8 передана на обработку хэндлерам
+2025-11-06 17:20:04 - Бот выключается...
+2025-11-06 17:20:04 - Выключение бота завершено
+2025-11-06 17:20:34 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:20:34 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 17:20:36 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:20:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 17:20:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 17:20:36 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 17:20:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:20:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:20:36 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 17:20:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 17:20:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 17:20:36 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 17:20:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 17:20:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 17:20:37 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 17:20:37 - Бот запускается...
+2025-11-06 17:20:37 - Команды меню установлены
+2025-11-06 17:20:37 - Команды бота успешно установлены
+2025-11-06 17:20:37 - Бот успешно запущен
+2025-11-06 17:20:40 - Текст от 1294714607 (Artyom_Leader): '/pass8...'
+2025-11-06 17:20:40 - Команда /pass8 передана на обработку хэндлерам
+2025-11-06 17:22:13 - Бот выключается...
+2025-11-06 17:22:13 - Выключение бота завершено
+2025-11-06 17:22:46 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:22:46 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 17:22:48 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:22:48 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 17:22:48 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 17:22:48 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 17:22:48 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:22:48 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:22:48 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 17:22:48 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 17:22:48 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 17:22:48 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 17:22:48 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 17:22:48 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 17:22:48 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 17:22:48 - Бот запускается...
+2025-11-06 17:22:49 - Команды меню установлены
+2025-11-06 17:22:49 - Команды бота успешно установлены
+2025-11-06 17:22:49 - Бот успешно запущен
+2025-11-06 17:23:02 - Команда /pass8 получена от 1294714607 (Artyom_Leader)
+2025-11-06 17:25:59 - Бот выключается...
+2025-11-06 17:25:59 - Выключение бота завершено
+2025-11-06 17:26:26 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:26:26 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 17:26:28 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:26:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 17:26:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 17:26:28 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 17:26:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:26:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:26:28 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 17:26:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 17:26:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 17:26:28 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 17:26:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 17:26:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 17:26:28 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 17:26:28 - Бот запускается...
+2025-11-06 17:26:28 - Команды меню установлены
+2025-11-06 17:26:28 - Команды бота успешно установлены
+2025-11-06 17:26:28 - Бот успешно запущен
+2025-11-06 17:26:32 - Команда /pass8 получена от 1294714607 (Artyom_Leader)
+2025-11-06 17:26:36 - Команда START от 1294714607 (Artyom_Leader)
+2025-11-06 17:26:39 - Команда /pass8 получена от 1294714607 (Artyom_Leader)
+2025-11-06 17:26:49 - Команда GIF запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-06 17:27:07 - Команда AUDIO получена от 1294714607 (Artyom_Leader)
+2025-11-06 17:27:14 - Команда /heh получена от 1294714607 (Artyom_Leader)
+2025-11-06 17:33:41 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:33:41 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-06 17:33:42 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-06 17:33:42 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-06 17:33:42 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-06 17:33:42 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-06 17:33:42 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:33:42 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-06 17:33:42 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-06 17:33:42 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-06 17:33:42 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-06 17:33:42 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-06 17:33:42 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-06 17:33:42 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-06 17:33:42 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-06 17:33:42 - Бот запускается...
+2025-11-06 17:33:43 - Команды меню установлены
+2025-11-06 17:33:43 - Команды бота успешно установлены
+2025-11-06 17:33:43 - Бот успешно запущен
+2025-11-06 17:33:43 - Команда START от <coroutine object get_user_info at 0x000002B1D83F3440>
+2025-11-12 19:55:57 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 19:55:57 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 19:56:50 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 19:56:50 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 19:56:52 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-12 19:56:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-12 19:56:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-12 19:56:52 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-12 19:56:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-12 19:56:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-12 19:56:52 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-12 19:56:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-12 19:56:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-12 19:56:52 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-12 19:56:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-12 19:56:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-12 19:56:52 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-12 19:56:52 - Бот запускается...
+2025-11-12 19:56:52 - Команды меню установлены
+2025-11-12 19:56:52 - Команды бота успешно установлены
+2025-11-12 19:56:52 - Бот успешно запущен
+2025-11-12 20:32:07 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:32:07 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 20:32:42 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:32:42 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 20:32:44 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:32:44 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-12 20:32:44 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-12 20:32:44 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-12 20:32:44 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-12 20:32:44 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-12 20:32:44 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-12 20:32:44 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-12 20:32:44 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-12 20:32:44 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-12 20:32:44 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-12 20:32:44 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-12 20:32:44 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-12 20:32:44 - Бот запускается...
+2025-11-12 20:32:44 - Команды меню установлены
+2025-11-12 20:32:44 - Команды бота успешно установлены
+2025-11-12 20:32:44 - Бот успешно запущен
+2025-11-12 20:34:32 - Команда START от <coroutine object get_user_info at 0x000001D5C8F0F9F0>
+2025-11-12 20:39:59 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:39:59 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 20:40:01 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:40:01 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-12 20:40:01 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-12 20:40:01 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-12 20:40:01 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-12 20:40:01 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-12 20:40:01 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-12 20:40:01 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-12 20:40:01 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-12 20:40:01 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-12 20:40:01 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-12 20:40:01 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-12 20:40:01 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-12 20:40:01 - Бот запускается...
+2025-11-12 20:40:01 - Команды меню установлены
+2025-11-12 20:40:01 - Команды бота успешно установлены
+2025-11-12 20:40:01 - Бот успешно запущен
+2025-11-12 20:40:04 - Команда START от <coroutine object get_user_info at 0x00000106805A5E00>
+2025-11-12 20:41:34 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:41:34 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 20:41:36 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:41:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-12 20:41:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-12 20:41:36 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-12 20:41:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-12 20:41:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-12 20:41:36 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-12 20:41:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-12 20:41:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-12 20:41:36 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-12 20:41:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-12 20:41:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-12 20:41:36 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-12 20:41:36 - Бот запускается...
+2025-11-12 20:41:36 - Команды меню установлены
+2025-11-12 20:41:36 - Команды бота успешно установлены
+2025-11-12 20:41:36 - Бот успешно запущен
+2025-11-12 20:41:38 - Команда START от 1294714607 (Artyom_Leader)
+2025-11-12 20:41:57 - Команда GIF запрошена пользователем <coroutine object get_user_info at 0x000001A1E13D75E0>
+2025-11-12 20:44:37 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:44:37 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 20:45:04 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:45:04 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 20:47:11 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:47:11 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 20:47:37 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:47:37 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 20:48:07 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:48:07 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 20:48:08 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-12 20:48:08 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-12 20:48:08 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-12 20:48:08 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-12 20:48:08 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-12 20:48:08 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-12 20:48:08 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-12 20:48:08 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-12 20:48:08 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-12 20:48:08 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-12 20:48:08 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-12 20:48:08 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-12 20:48:08 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-12 20:48:08 - Бот запускается...
+2025-11-12 20:48:08 - Команды меню установлены
+2025-11-12 20:48:08 - Команды бота успешно установлены
+2025-11-12 20:48:08 - Бот успешно запущен
+2025-11-12 20:48:16 - Команда START от 1294714607 (Artyom_Leader)
+2025-11-12 20:48:22 - Команда GIF запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-12 20:48:26 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-12 20:48:30 - Команда AUDIO получена от 1294714607 (Artyom_Leader)
+2025-11-12 20:48:33 - Команда /pass8 получена от 1294714607 (Artyom_Leader)
+2025-11-12 20:48:43 - Команда /pass12 получена от 1294714607 (Artyom_Leader)
+2025-11-12 20:48:48 - Команда /stats получена от 1294714607 (Artyom_Leader)
+2025-11-12 20:48:52 - Команда /help получена от 1294714607 (Artyom_Leader)
+2025-11-12 20:48:58 - Команда /heh получена от 1294714607 (Artyom_Leader)
+2025-11-12 21:13:31 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:13:31 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:14:00 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:14:00 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:14:24 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:14:24 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:14:56 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:14:56 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:16:18 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:16:18 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:21:07 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:21:07 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:21:35 - IMAGE_GENERATOR - ❌ Не удалось загрузить: bguisard/stable-diffusion-nano-2-1 - 
+2025-11-12 21:21:36 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: alvarobaron/dog-sd-xl
+2025-11-12 21:21:36 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:21:36 - IMAGE_GENERATOR - ❌ Не удалось загрузить: alvarobaron/dog-sd-xl - Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+2025-11-12 21:21:36 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: black-forest-labs/FLUX.1-schnell
+2025-11-12 21:21:36 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:21:36 - IMAGE_GENERATOR - ❌ Не удалось загрузить: black-forest-labs/FLUX.1-schnell - Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+2025-11-12 21:21:36 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: sd_xl_base_1.0.safetensors
+2025-11-12 21:21:36 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:21:36 - IMAGE_GENERATOR - ❌ Не удалось загрузить: sd_xl_base_1.0.safetensors - Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+2025-11-12 21:21:36 - IMAGE_GENERATOR - ⚠️ Не удалось загрузить ни одну модель!
+2025-11-12 21:21:36 - IMAGE_GENERATOR - ⚠️ Пропускаем загрузку LoRA: базовая модель не загружена
+2025-11-12 21:21:36 - Бот запускается...
+2025-11-12 21:21:38 - Команды меню установлены
+2025-11-12 21:21:38 - Команды бота успешно установлены
+2025-11-12 21:21:38 - Бот успешно запущен
+2025-11-12 21:23:11 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:23:11 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:23:51 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:23:51 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:23:52 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:23:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-12 21:23:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-12 21:23:52 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-12 21:23:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:23:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:23:52 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-12 21:23:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-12 21:23:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-12 21:23:52 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-12 21:23:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-12 21:23:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-12 21:23:52 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-12 21:23:52 - Бот запускается...
+2025-11-12 21:23:52 - Команды меню установлены
+2025-11-12 21:23:52 - Команды бота успешно установлены
+2025-11-12 21:23:52 - Бот успешно запущен
+2025-11-12 21:24:01 - Команда START от 1294714607 (Artyom_Leader)
+2025-11-12 21:24:03 - Команда /pass8 получена от 1294714607 (Artyom_Leader)
+2025-11-12 21:26:01 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:26:01 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:26:02 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:26:02 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-12 21:26:02 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-12 21:26:02 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-12 21:26:02 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:26:02 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:26:02 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-12 21:26:02 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-12 21:26:02 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-12 21:26:02 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-12 21:26:02 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-12 21:26:02 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-12 21:26:02 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-12 21:26:02 - Бот запускается...
+2025-11-12 21:26:02 - Команды меню установлены
+2025-11-12 21:26:02 - Команды бота успешно установлены
+2025-11-12 21:26:02 - Бот успешно запущен
+2025-11-12 21:26:11 - Команда /pass8 получена от 1294714607 (Artyom_Leader)
+2025-11-12 21:30:40 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:30:40 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:30:41 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:30:41 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-12 21:30:41 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-12 21:30:41 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-12 21:30:41 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:30:41 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:30:41 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-12 21:30:41 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-12 21:30:41 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-12 21:30:41 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-12 21:30:41 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-12 21:30:41 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-12 21:30:41 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-12 21:30:41 - Бот запускается...
+2025-11-12 21:30:41 - Команды меню установлены
+2025-11-12 21:30:41 - Команды бота успешно установлены
+2025-11-12 21:30:41 - Бот успешно запущен
+2025-11-12 21:30:59 - Команда /pass8 получена от 1294714607 (Artyom_Leader)
+2025-11-12 21:34:48 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:34:48 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:34:49 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:34:49 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-12 21:34:49 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-12 21:34:49 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-12 21:34:49 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:34:49 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:34:49 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-12 21:34:49 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-12 21:34:49 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-12 21:34:49 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-12 21:34:49 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-12 21:34:49 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-12 21:34:49 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-12 21:34:49 - Бот запускается...
+2025-11-12 21:34:49 - Команды меню установлены
+2025-11-12 21:34:49 - Команды бота успешно установлены
+2025-11-12 21:34:49 - Бот успешно запущен
+2025-11-12 21:34:55 - Команда /pass8 получена от 1294714607 (Artyom_Leader)
+2025-11-12 21:35:42 - Команда START от 1294714607 (Artyom_Leader)
+2025-11-12 21:35:43 - Команда /pass8 получена от 1294714607 (Artyom_Leader)
+2025-11-12 21:35:47 - Команда /pass8 получена от 1294714607 (Artyom_Leader)
+2025-11-12 21:38:32 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:38:32 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:38:33 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:38:33 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-12 21:38:33 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-12 21:38:33 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-12 21:38:33 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:38:33 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:38:33 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-12 21:38:33 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-12 21:38:33 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-12 21:38:33 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-12 21:38:33 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-12 21:38:33 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-12 21:38:33 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-12 21:38:33 - Бот запускается...
+2025-11-12 21:38:33 - Команды меню установлены
+2025-11-12 21:38:33 - Команды бота успешно установлены
+2025-11-12 21:38:33 - Бот успешно запущен
+2025-11-12 21:39:43 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:39:43 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-12 21:39:44 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-12 21:39:44 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-12 21:39:44 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-12 21:39:44 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-12 21:39:44 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:39:44 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-12 21:39:44 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-12 21:39:44 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-12 21:39:44 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-12 21:39:44 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-12 21:39:44 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-12 21:39:44 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-12 21:39:44 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-12 21:39:44 - Бот запускается...
+2025-11-12 21:39:44 - Команды меню установлены
+2025-11-12 21:39:44 - Команды бота успешно установлены
+2025-11-12 21:39:44 - Бот успешно запущен
+2025-11-12 21:39:46 - Команда PASS8 обработана для 1294714607 (Artyom_Leader)
+2025-11-12 21:39:47 - Пароль 8 символов сгенерирован для 1294714607 (Artyom_Leader)
+2025-11-12 21:40:33 - Пароль 12 символов запрошен пользователем 1294714607 (Artyom_Leader)
+2025-11-12 21:40:33 - Пароль 12 символов сгенерирован для 1294714607 (Artyom_Leader)
+2025-11-12 21:40:36 - Статистика запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-12 21:40:40 - Помощь запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-12 21:41:08 - Команда GIF запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-12 21:41:10 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-12 21:45:05 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-12 21:45:14 - Команда GIF запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-12 21:45:34 - Фото получено от 1294714607 (Artyom_Leader) для создания GIF
+2025-11-12 21:45:53 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-12 21:45:56 - Фото получено от 1294714607 (Artyom_Leader) для создания GIF
+2025-11-12 21:46:16 - Фото получено от 1294714607 (Artyom_Leader) для создания GIF
+2025-11-13 16:05:40 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:05:40 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:08:16 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:08:16 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:08:56 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:08:56 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:08:57 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:08:57 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-13 16:08:57 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-13 16:08:57 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-13 16:08:57 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:08:57 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:08:57 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-13 16:08:57 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-13 16:08:57 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-13 16:08:57 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-13 16:08:57 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-13 16:08:57 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-13 16:08:57 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-13 16:08:57 - Бот запускается...
+2025-11-13 16:08:58 - Команды меню установлены
+2025-11-13 16:08:58 - Команды бота успешно установлены
+2025-11-13 16:08:58 - Бот успешно запущен
+2025-11-13 16:13:03 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-13 16:13:11 - Команда GIF запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-13 16:13:29 - Помощь запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-13 16:13:44 - Пароль 12 символов запрошен пользователем 1294714607 (Artyom_Leader)
+2025-11-13 16:13:44 - Пароль 12 символов сгенерирован для 1294714607 (Artyom_Leader)
+2025-11-13 16:21:53 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:21:53 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:22:57 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:22:57 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:22:58 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:22:58 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-13 16:22:58 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-13 16:22:58 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-13 16:22:58 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:22:58 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:22:58 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-13 16:22:58 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-13 16:22:58 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-13 16:22:58 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-13 16:22:58 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-13 16:22:58 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-13 16:22:58 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-13 16:23:45 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:23:45 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:23:47 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:23:47 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-13 16:23:47 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-13 16:23:47 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-13 16:23:47 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:23:47 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:23:47 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-13 16:23:47 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-13 16:23:47 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-13 16:23:47 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-13 16:23:47 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-13 16:23:47 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-13 16:23:47 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-13 16:23:47 - Бот запускается...
+2025-11-13 16:23:47 - Команды меню установлены
+2025-11-13 16:23:47 - Команды бота успешно установлены
+2025-11-13 16:23:47 - Бот успешно запущен
+2025-11-13 16:25:41 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:25:41 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:25:43 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:25:43 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-13 16:25:43 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-13 16:25:43 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-13 16:25:43 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:25:43 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:25:43 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-13 16:25:43 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-13 16:25:43 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-13 16:25:43 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-13 16:25:43 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-13 16:25:43 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-13 16:25:43 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-13 16:25:43 - Бот запускается...
+2025-11-13 16:25:43 - Команды меню установлены
+2025-11-13 16:25:43 - Команды бота успешно установлены
+2025-11-13 16:25:43 - Бот успешно запущен
+2025-11-13 16:32:17 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:32:17 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:32:19 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:32:19 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-13 16:32:19 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-13 16:32:19 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-13 16:32:19 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:32:19 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:32:19 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-13 16:32:19 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-13 16:32:19 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-13 16:32:19 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-13 16:32:19 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-13 16:32:19 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-13 16:32:19 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-13 16:32:19 - Бот запускается...
+2025-11-13 16:32:19 - Команды меню установлены
+2025-11-13 16:32:19 - Команды бота успешно установлены
+2025-11-13 16:32:19 - Бот успешно запущен
+2025-11-13 16:33:31 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:33:31 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:33:33 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:33:33 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-13 16:33:33 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-13 16:33:33 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-13 16:33:33 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:33:33 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:33:33 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-13 16:33:33 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-13 16:33:33 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-13 16:33:33 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-13 16:33:33 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-13 16:33:33 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-13 16:33:33 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-13 16:33:33 - Бот запускается...
+2025-11-13 16:33:33 - Команды меню установлены
+2025-11-13 16:33:33 - Команды бота успешно установлены
+2025-11-13 16:33:33 - Бот успешно запущен
+2025-11-13 16:34:14 - Бот выключается...
+2025-11-13 16:34:14 - Выключение бота завершено
+2025-11-13 16:34:38 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:34:38 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:34:40 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:34:40 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-13 16:34:40 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-13 16:34:40 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-13 16:34:40 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:34:40 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:34:40 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-13 16:34:40 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-13 16:34:40 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-13 16:34:40 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-13 16:34:40 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-13 16:34:40 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-13 16:34:40 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-13 16:34:40 - Бот запускается...
+2025-11-13 16:34:40 - Команды меню установлены
+2025-11-13 16:34:40 - Команды бота успешно установлены
+2025-11-13 16:34:40 - Бот успешно запущен
+2025-11-13 16:36:46 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:36:46 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:37:40 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:37:40 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:39:19 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:39:19 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:40:38 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:40:38 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:40:40 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:40:40 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-13 16:40:40 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-13 16:40:40 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-13 16:40:40 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:40:40 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-13 16:40:40 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-13 16:40:40 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-13 16:40:40 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-13 16:40:40 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-13 16:40:40 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-13 16:40:40 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-13 16:40:40 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-13 16:40:40 - Бот запускается...
+2025-11-13 16:40:40 - Команды меню установлены
+2025-11-13 16:40:40 - Команды бота успешно установлены
+2025-11-13 16:40:40 - Бот успешно запущен
+2025-11-13 16:47:13 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:47:13 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 16:52:54 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 16:52:54 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:05:37 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:05:37 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:06:13 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:06:13 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:06:53 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:06:53 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:07:43 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:07:43 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:08:28 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:08:28 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:09:07 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:09:07 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:09:59 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:09:59 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:11:04 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:11:04 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:12:01 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:12:01 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:12:54 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:12:54 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:14:07 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:14:07 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:15:14 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:15:14 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:15:16 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:15:16 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-13 17:15:16 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-13 17:15:16 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-13 17:15:16 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-13 17:15:16 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-13 17:15:16 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-13 17:15:16 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-13 17:15:16 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-13 17:15:16 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-13 17:15:16 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-13 17:15:16 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-13 17:15:16 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-13 17:15:16 - Бот запускается...
+2025-11-13 17:15:16 - Команды меню установлены
+2025-11-13 17:15:16 - Команды бота успешно установлены
+2025-11-13 17:15:16 - Бот успешно запущен
+2025-11-13 17:16:35 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:16:35 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-13 17:16:36 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-13 17:16:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-13 17:16:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-13 17:16:36 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-13 17:16:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-13 17:16:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-13 17:16:36 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-13 17:16:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-13 17:16:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-13 17:16:36 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-13 17:16:36 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-13 17:16:36 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-13 17:16:36 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-13 17:16:36 - Бот запускается...
+2025-11-13 17:16:37 - Команды меню установлены
+2025-11-13 17:16:37 - Команды бота успешно установлены
+2025-11-13 17:16:37 - Бот успешно запущен
+2025-11-13 17:22:15 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-13 17:22:37 - Фото получено от 1294714607 (Artyom_Leader) для создания GIF
+2025-11-13 17:26:11 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-19 23:46:18 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-19 23:46:18 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-19 23:48:03 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-19 23:48:03 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-19 23:49:36 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-19 23:49:36 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-19 23:49:37 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-19 23:49:37 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-19 23:49:37 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-19 23:49:37 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-19 23:49:37 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-19 23:49:37 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-19 23:49:37 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-19 23:49:37 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-19 23:49:37 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-19 23:49:37 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-19 23:49:37 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-19 23:49:37 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-19 23:49:37 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-19 23:49:37 - Бот запускается...
+2025-11-19 23:49:38 - Команды меню установлены
+2025-11-19 23:49:38 - Команды бота успешно установлены
+2025-11-19 23:49:38 - Бот успешно запущен
+2025-11-20 00:01:17 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:01:17 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 00:01:43 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:01:43 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 00:01:45 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:01:45 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 00:01:45 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 00:01:45 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 00:01:45 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 00:01:45 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 00:01:45 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 00:01:45 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 00:01:45 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 00:01:45 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 00:01:45 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 00:01:45 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 00:01:45 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 00:01:45 - Бот запускается...
+2025-11-20 00:01:45 - Команды меню установлены
+2025-11-20 00:01:45 - Команды бота успешно установлены
+2025-11-20 00:01:45 - Бот успешно запущен
+2025-11-20 00:07:59 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:07:59 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 00:08:26 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:08:26 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 00:08:28 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:08:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 00:08:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 00:08:28 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 00:08:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 00:08:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 00:08:28 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 00:08:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 00:08:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 00:08:28 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 00:08:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 00:08:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 00:08:28 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 00:08:28 - Бот запускается...
+2025-11-20 00:08:28 - Команды меню установлены
+2025-11-20 00:08:28 - Команды бота успешно установлены
+2025-11-20 00:08:28 - Бот успешно запущен
+2025-11-20 00:11:46 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:11:46 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 00:12:17 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:12:17 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 00:12:51 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:12:51 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 00:12:52 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:12:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 00:12:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 00:12:52 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 00:12:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 00:12:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 00:12:52 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 00:12:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 00:12:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 00:12:52 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 00:12:52 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 00:12:52 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 00:12:52 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 00:12:52 - Бот запускается...
+2025-11-20 00:12:52 - Команды меню установлены
+2025-11-20 00:12:52 - Команды бота успешно установлены
+2025-11-20 00:12:52 - Бот успешно запущен
+2025-11-20 00:30:27 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:30:27 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 00:30:29 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 00:30:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 00:30:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 00:30:29 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 00:30:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 00:30:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 00:30:29 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 00:30:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 00:30:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 00:30:29 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 00:30:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 00:30:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 00:30:29 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 00:30:29 - Бот запускается...
+2025-11-20 00:30:29 - Команды меню установлены
+2025-11-20 00:30:29 - Команды бота успешно установлены
+2025-11-20 00:30:29 - Бот успешно запущен
+2025-11-20 13:12:09 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:12:09 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 13:12:11 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:12:11 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 13:12:11 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 13:12:11 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 13:12:11 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:12:11 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:12:11 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 13:12:11 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 13:12:11 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 13:12:11 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 13:12:11 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 13:12:11 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 13:12:11 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 13:12:11 - Бот запускается...
+2025-11-20 13:12:12 - Команды меню установлены
+2025-11-20 13:12:12 - Команды бота успешно установлены
+2025-11-20 13:12:12 - Бот успешно запущен
+2025-11-20 13:23:40 - Помощь запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-20 13:25:30 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:25:30 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 13:25:31 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:25:31 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 13:25:31 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 13:25:31 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 13:25:31 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:25:31 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:25:31 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 13:25:31 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 13:25:31 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 13:25:31 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 13:25:31 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 13:25:31 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 13:25:31 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 13:25:31 - Бот запускается...
+2025-11-20 13:25:31 - Команды меню установлены
+2025-11-20 13:25:31 - Команды бота успешно установлены
+2025-11-20 13:25:31 - Бот успешно запущен
+2025-11-20 13:25:36 - Помощь запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-20 13:27:01 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:27:01 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 13:27:03 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:27:03 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 13:27:03 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 13:27:03 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 13:27:03 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:27:03 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:27:03 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 13:27:03 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 13:27:03 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 13:27:03 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 13:27:03 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 13:27:03 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 13:27:03 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 13:27:03 - Бот запускается...
+2025-11-20 13:27:03 - Команды меню установлены
+2025-11-20 13:27:03 - Команды бота успешно установлены
+2025-11-20 13:27:03 - Бот успешно запущен
+2025-11-20 13:27:08 - Помощь запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-20 13:27:20 - Статистика запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-20 13:27:48 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-20 13:44:27 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:44:27 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 13:44:29 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:44:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 13:44:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 13:44:29 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 13:44:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:44:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:44:29 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 13:44:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 13:44:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 13:44:29 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 13:44:29 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 13:44:29 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 13:44:29 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 13:44:29 - Бот запускается...
+2025-11-20 13:44:30 - Команды меню установлены
+2025-11-20 13:44:30 - Команды бота успешно установлены
+2025-11-20 13:44:30 - Бот успешно запущен
+2025-11-20 13:44:30 - Команда IMAGE получена от 1294714607 (Artyom_Leader)
+2025-11-20 13:44:30 - Статистика запрошена пользователем 1294714607 (Artyom_Leader)
+2025-11-20 13:53:01 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:53:01 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 13:53:02 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:53:02 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 13:53:02 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 13:53:02 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 13:53:02 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:53:02 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:53:02 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 13:53:02 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 13:53:02 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 13:53:02 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 13:53:02 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 13:53:02 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 13:53:02 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 13:53:02 - Бот запускается...
+2025-11-20 13:53:02 - Команды меню установлены
+2025-11-20 13:53:02 - Команды бота успешно установлены
+2025-11-20 13:53:02 - Бот успешно запущен
+2025-11-20 13:56:12 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:56:12 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 13:56:14 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:56:14 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 13:56:14 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 13:56:14 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 13:56:14 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:56:14 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:56:14 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 13:56:14 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 13:56:14 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 13:56:14 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 13:56:14 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 13:56:14 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 13:56:14 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 13:56:14 - Бот запускается...
+2025-11-20 13:56:14 - Команды меню установлены
+2025-11-20 13:56:14 - Команды бота успешно установлены
+2025-11-20 13:56:14 - Бот успешно запущен
+2025-11-20 13:58:01 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:58:01 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 13:58:03 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 13:58:03 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 13:58:03 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 13:58:03 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 13:58:03 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:58:03 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 13:58:03 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 13:58:03 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 13:58:03 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 13:58:03 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 13:58:03 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 13:58:03 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 13:58:03 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 13:58:03 - Бот запускается...
+2025-11-20 13:58:04 - Команды меню установлены
+2025-11-20 13:58:04 - Команды бота успешно установлены
+2025-11-20 13:58:04 - Бот успешно запущен
+2025-11-20 14:00:04 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 14:00:04 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 14:00:06 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 14:00:06 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 14:00:06 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 14:00:06 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 14:00:06 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 14:00:06 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 14:00:06 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 14:00:06 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 14:00:06 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 14:00:06 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 14:00:06 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 14:00:06 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 14:00:06 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 14:00:06 - Бот запускается...
+2025-11-20 14:00:06 - Команды меню установлены
+2025-11-20 14:00:06 - Команды бота успешно установлены
+2025-11-20 14:00:06 - Бот успешно запущен
+2025-11-20 14:02:52 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 14:02:52 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 14:03:26 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 14:03:26 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 14:03:28 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 14:03:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 14:03:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 14:03:28 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 14:03:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 14:03:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 14:03:28 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 14:03:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 14:03:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 14:03:28 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 14:03:28 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 14:03:28 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 14:03:28 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 14:03:28 - Бот запускается...
+2025-11-20 14:03:29 - Команды меню установлены
+2025-11-20 14:03:29 - Команды бота успешно установлены
+2025-11-20 14:03:29 - Бот успешно запущен
+2025-11-20 14:06:07 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 14:06:07 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 14:06:47 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 14:06:47 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 14:06:50 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 14:06:50 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 14:06:50 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 14:06:50 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 14:06:50 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 14:06:50 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 14:06:50 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 14:06:50 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 14:06:50 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 14:06:50 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 14:06:50 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 14:06:50 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 14:06:50 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 14:06:50 - Бот запускается...
+2025-11-20 14:06:50 - Команды меню установлены
+2025-11-20 14:06:50 - Команды бота успешно установлены
+2025-11-20 14:06:50 - Бот успешно запущен
+2025-11-20 15:58:47 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 15:58:47 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 15:58:51 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 15:58:51 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 15:58:51 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 15:58:51 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 15:58:51 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 15:58:51 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 15:58:51 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 15:58:51 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 15:58:51 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 15:58:51 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 15:58:51 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 15:58:51 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 15:58:51 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 15:58:51 - Бот запускается...
+2025-11-20 15:58:52 - Команды меню установлены
+2025-11-20 15:58:52 - Команды бота успешно установлены
+2025-11-20 15:58:52 - Бот успешно запущен
+2025-11-20 16:10:45 - Команда START от 5309040566 (notericmyval)
+2025-11-20 16:10:49 - Помощь запрошена пользователем 5309040566 (notericmyval)
+2025-11-20 16:10:50 - Команда GIF запрошена пользователем 5309040566 (notericmyval)
+2025-11-20 16:10:51 - Команда AUDIO получена от 5309040566 (notericmyval)
+2025-11-20 16:35:00 - Команда PASS8 обработана для 5309040566 (notericmyval)
+2025-11-20 16:35:00 - Пароль 8 символов сгенерирован для 5309040566 (notericmyval)
+2025-11-20 16:35:05 - Пароль 12 символов запрошен пользователем 5309040566 (notericmyval)
+2025-11-20 16:35:05 - Пароль 12 символов сгенерирован для 5309040566 (notericmyval)
+2025-11-20 16:35:39 - Команда IMAGE получена от 5309040566 (notericmyval)
+2025-11-20 16:36:42 - Команда IMAGE получена от 5309040566 (notericmyval)
+2025-11-20 16:37:41 - Команда IMAGE получена от 5309040566 (notericmyval)
+2025-11-20 16:37:56 - Команда AUDIO получена от 5309040566 (notericmyval)
+2025-11-20 16:38:12 - Команда AUDIO получена от 5309040566 (notericmyval)
+2025-11-20 17:12:28 - IMAGE_GENERATOR - 🔄 Пробуем загрузить: bguisard/stable-diffusion-nano-2-1
+2025-11-20 17:12:28 - IMAGE_GENERATOR - 📁 Кэш моделей: D:/huggingface_cache
+2025-11-20 17:12:32 - IMAGE_GENERATOR - ✅ Успешно загружена: bguisard/stable-diffusion-nano-2-1
+2025-11-20 17:12:32 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\anime.safetensors
+2025-11-20 17:12:32 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\anime.safetensors
+2025-11-20 17:12:32 - IMAGE_GENERATOR - ✅ LoRA anime загружен (конфиг сохранен)
+2025-11-20 17:12:32 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\pixel_art.safetensors
+2025-11-20 17:12:32 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\pixel_art.safetensors
+2025-11-20 17:12:32 - IMAGE_GENERATOR - ✅ LoRA pixel_art загружен (конфиг сохранен)
+2025-11-20 17:12:32 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\watercolor.safetensors
+2025-11-20 17:12:32 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\watercolor.safetensors
+2025-11-20 17:12:32 - IMAGE_GENERATOR - ✅ LoRA watercolor загружен (конфиг сохранен)
+2025-11-20 17:12:32 - IMAGE_GENERATOR - 📁 LoRA уже существует: D:/lora_models\realistic.safetensors
+2025-11-20 17:12:32 - IMAGE_GENERATOR - 📁 LoRA файл найден: D:/lora_models\realistic.safetensors
+2025-11-20 17:12:32 - IMAGE_GENERATOR - ✅ LoRA realistic загружен (конфиг сохранен)
+2025-11-20 17:12:33 - Бот запускается...
+2025-11-20 17:12:33 - Команды меню установлены
+2025-11-20 17:12:33 - Команды бота успешно установлены
+2025-11-20 17:12:33 - Бот успешно запущен
+2025-11-20 17:14:51 - Команда /craft получена от 1294714607 (Artyom_Leader)
+2025-11-20 17:16:22 - Команда /ecoquiz получена от 1294714607 (Artyom_Leader)
