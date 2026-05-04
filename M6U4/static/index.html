@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepClaw • YOLO • NER • Voice</title>
+    <style>
+        /* Минифицированные стили для быстрой загрузки */
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d0d0d;color:#e5e5e5;height:100vh;display:flex}
+        .sidebar{width:260px;background:#1a1a1a;border-right:1px solid #333;display:flex;flex-direction:column;padding:16px}
+        .logo{font-size:20px;font-weight:600;margin-bottom:20px;display:flex;align-items:center;gap:8px}
+        .new-chat-btn{background:#2e7d32;color:white;border:none;padding:12px;border-radius:8px;cursor:pointer;font-size:14px;margin-bottom:16px;transition:background 0.2s}
+        .new-chat-btn:hover{background:#1b5e20}
+        .chat-list{flex:1;overflow-y:auto}
+        .chat-item{padding:10px;margin:4px 0;background:#252525;border-radius:6px;cursor:pointer;font-size:13px;display:flex;justify-content:space-between;align-items:center;transition:background 0.2s}
+        .chat-item:hover{background:#333}
+        .chat-item.active{background:#2e7d32}
+        .chat-item-delete{opacity:0;color:#ff4444;font-size:16px;padding:0 4px;transition:opacity 0.2s}
+        .chat-item:hover .chat-item-delete{opacity:0.7}
+        .chat-item-delete:hover{opacity:1}
+        .main{flex:1;display:flex;flex-direction:column;height:100vh}
+        .chat-header{padding:16px 24px;border-bottom:1px solid #333;display:flex;align-items:center;justify-content:space-between}
+        .chat-messages{flex:1;overflow-y:auto;padding:24px;display:flex;flex-direction:column;gap:16px}
+        .message{display:flex;gap:12px;max-width:80%}
+        .message.user{align-self:flex-end;flex-direction:row-reverse}
+        .message-avatar{width:36px;height:36px;border-radius:50%;background:#333;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+        .message.user .message-avatar{background:#2e7d32}
+        .message-content{background:#1a1a1a;padding:12px 16px;border-radius:12px;line-height:1.5;word-wrap:break-word}
+        .message.user .message-content{background:#2e7d32}
+        .toolbar{display:flex;gap:8px;padding:12px 24px;border-top:1px solid #333;flex-wrap:wrap}
+        .tool-btn{background:#252525;border:none;color:#e5e5e5;padding:8px 16px;border-radius:20px;cursor:pointer;font-size:13px;display:flex;align-items:center;gap:6px;transition:all 0.2s}
+        .tool-btn:hover{background:#333}
+        .tool-btn.active{background:#2e7d32}
+        .input-area{padding:16px 24px 24px;display:flex;gap:12px}
+        .input-area input{flex:1;background:#1a1a1a;border:1px solid #333;border-radius:12px;padding:14px 18px;color:white;font-size:15px;transition:border 0.2s}
+        .input-area input:focus{outline:none;border-color:#2e7d32}
+        .send-btn{background:#2e7d32;border:none;color:white;padding:0 24px;border-radius:12px;cursor:pointer;font-size:16px;transition:background 0.2s}
+        .send-btn:hover{background:#1b5e20}
+        .image-preview{max-width:300px;border-radius:8px;margin-top:8px}
+        #voiceStatus{color:#888;font-size:12px;margin-left:8px}
+        .loading{display:inline-block;width:20px;height:20px;border:2px solid #333;border-top-color:#2e7d32;border-radius:50%;animation:spin 0.8s linear infinite;will-change:transform}
+        @keyframes spin{to{transform:rotate(360deg)}}
+        
+        /* Оптимизация для мобильных */
+        @media (max-width:768px){
+            .sidebar{width:80px;padding:8px}
+            .logo span,.new-chat-btn span{display:none}
+            .chat-item span:first-child{display:none}
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <span>🦞 DeepClaw</span>
+        </div>
+        <button type="button" class="new-chat-btn" onclick="createNewChat()">
+            <span>+ Новый чат</span>
+        </button>
+        <div class="chat-list" id="chatList"></div>
+        <div style="font-size:12px;color:#666;margin-top:16px;text-align:center">
+            <span>YOLO • NER • Voice</span>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class="chat-header">
+            <span id="chatTitle">Новый чат</span>
+            <button type="button" class="tool-btn" onclick="clearCurrentChat()">🗑️ Очистить</button>
+        </div>
+        
+        <div class="chat-messages" id="messages"></div>
+        
+        <div class="toolbar">
+            <button type="button" class="tool-btn" id="imageBtn" onclick="toggleImageMode()">
+                🖼️ <span>Картинка</span>
+            </button>
+            <button type="button" class="tool-btn" id="voiceBtn" onclick="toggleVoice()">
+                🎤 <span>Голос</span>
+            </button>
+            <button type="button" class="tool-btn" id="boostedVoiceBtn" onclick="toggleBoostedVoice()">
+                📢 <span>Усиленный</span>
+            </button>
+            <span id="voiceStatus"></span>
+            <input type="file" id="imageInput" accept="image/*" style="display:none">
+        </div>
+        
+        <div class="input-area">
+            <input type="text" id="messageInput" placeholder="Напишите сообщение..." autocomplete="off">
+            <button type="button" class="send-btn" id="sendBtn">→</button>
+        </div>
+    </div>
+
+    <script>
+        (function(){
+            "use strict";
+            
+            // Состояние приложения
+            const state = {
+                currentChatId: null,
+                imageMode: false,
+                selectedImage: null,
+                chatMessages: {},
+                isRecording: false,
+                isBoostedRecording: false,
+                finalText: '',
+                recognition: null,
+                audioContext: null,
+                mediaStream: null
+            };
+            
+            // DOM элементы
+            const DOM = {
+                chatList: document.getElementById('chatList'),
+                messages: document.getElementById('messages'),
+                chatTitle: document.getElementById('chatTitle'),
+                messageInput: document.getElementById('messageInput'),
+                sendBtn: document.getElementById('sendBtn'),
+                imageBtn: document.getElementById('imageBtn'),
+                voiceBtn: document.getElementById('voiceBtn'),
+                boostedVoiceBtn: document.getElementById('boostedVoiceBtn'),
+                voiceStatus: document.getElementById('voiceStatus'),
+                imageInput: document.getElementById('imageInput')
+            };
+            
+            // Инициализация голосового ввода
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition;
+            if (SpeechRecognition) {
+                state.recognition = new SpeechRecognition();
+                state.recognition.lang = 'ru-RU';
+                state.recognition.continuous = true;
+                state.recognition.interimResults = true;
+                state.recognition.maxAlternatives = 1;
+                
+                state.recognition.onresult = (e) => {
+                    if (!state.isRecording && !state.isBoostedRecording) return;
+                    
+                    let interim = '', newFinal = '';
+                    for (let i = e.resultIndex; i < e.results.length; i++) {
+                        const text = e.results[i][0].transcript;
+                        e.results[i].isFinal ? newFinal += text + ' ' : interim += text;
+                    }
+                    
+                    state.finalText += newFinal;
+                    DOM.messageInput.value = (state.finalText + interim).trim();
+                    DOM.voiceStatus.textContent = interim ? `🎧 ${interim}` : `📝 ${state.finalText.substring(0, 30)}...`;
+                };
+                
+                state.recognition.onerror = (e) => {
+                    if (e.error !== 'aborted') {
+                        DOM.voiceStatus.textContent = `❌ ${e.error}`;
+                        setTimeout(() => {
+                            if (DOM.voiceStatus.textContent === `❌ ${e.error}`) {
+                                DOM.voiceStatus.textContent = '';
+                            }
+                        }, 3000);
+                        stopAllRecording();
+                    }
+                };
+                
+                state.recognition.onend = () => {
+                    if (state.isRecording || state.isBoostedRecording) {
+                        try { state.recognition.start(); } 
+                        catch (e) { stopAllRecording(); }
+                    }
+                };
+            }
+            
+            // Генерация ID чата
+            function generateChatId() {
+                return 'chat_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+            }
+            
+            function ensureChat(chatId) {
+                if (!chatId) return;
+                if (!state.chatMessages[chatId]) {
+                    state.chatMessages[chatId] = [];
+                }
+            }
+            
+            // Создание нового чата
+            window.createNewChat = function() {
+                const newId = generateChatId();
+                state.chatMessages[newId] = [];
+                state.currentChatId = newId;
+                
+                DOM.messages.innerHTML = '';
+                DOM.chatTitle.textContent = 'Новый чат';
+                
+                addSystemMessage('✨ Новый чат создан. Используйте /ner для NER или Картинку для YOLO.');
+                renderChatList();
+                saveToStorage();
+            };
+            
+            // Переключение чата
+            window.switchChat = function(chatId) {
+                ensureChat(chatId);
+                
+                state.currentChatId = chatId;
+                DOM.chatTitle.textContent = `Чат ${chatId.substring(0, 8)}`;
+                
+                const fragment = document.createDocumentFragment();
+                state.chatMessages[chatId].forEach(msg => {
+                    const div = msg.role === 'system' ? createSystemMessageElement(msg.content) : createMessageElement(msg.role, msg.content, msg.extra);
+                    fragment.appendChild(div);
+                });
+                
+                DOM.messages.innerHTML = '';
+                DOM.messages.appendChild(fragment);
+                DOM.messages.scrollTop = DOM.messages.scrollHeight;
+                
+                renderChatList();
+            };
+            
+            function createMessageElement(role, content, extra = {}) {
+                const div = document.createElement('div');
+                div.className = `message ${role}`;
+                
+                const avatar = document.createElement('div');
+                avatar.className = 'message-avatar';
+                avatar.textContent = role === 'user' ? '👤' : '🦞';
+                
+                const contentDiv = document.createElement('div');
+                contentDiv.className = 'message-content';
+                
+                if (extra.image) {
+                    const img = document.createElement('img');
+                    img.src = extra.image;
+                    img.className = 'image-preview';
+                    img.loading = 'lazy';
+                    contentDiv.appendChild(img);
+                }
+                
+                const text = document.createElement('div');
+                text.textContent = content;
+                contentDiv.appendChild(text);
+                
+                div.appendChild(avatar);
+                div.appendChild(contentDiv);
+                
+                return div;
+            }
+            
+            function createSystemMessageElement(text) {
+                const div = document.createElement('div');
+                div.style.cssText = 'text-align:center;color:#666;font-size:13px;margin:10px 0';
+                div.textContent = text;
+                return div;
+            }
+            
+            function addMessage(role, content, extra = {}) {
+                if (!state.currentChatId) createNewChat();
+                ensureChat(state.currentChatId);
+                
+                DOM.messages.appendChild(createMessageElement(role, content, extra));
+                DOM.messages.scrollTop = DOM.messages.scrollHeight;
+                
+                state.chatMessages[state.currentChatId].push({ role, content, extra, timestamp: Date.now() });
+                renderChatList();
+                saveToStorage();
+            }
+            
+            function addSystemMessage(text) {
+                if (!state.currentChatId) createNewChat();
+                ensureChat(state.currentChatId);
+                
+                DOM.messages.appendChild(createSystemMessageElement(text));
+                DOM.messages.scrollTop = DOM.messages.scrollHeight;
+                
+                state.chatMessages[state.currentChatId].push({ role: 'system', content: text, timestamp: Date.now() });
+                saveToStorage();
+            }
+            
+            // ========== СРОЧНЫЙ ФИКС: ЯВНОЕ ПЕРЕКЛЮЧЕНИЕ ЧАТА ==========
+            window.sendMessage = async function() {
+                const message = DOM.messageInput.value.trim();
+                if (!message && !state.selectedImage) return;
+                
+                if (!state.currentChatId) createNewChat();
+                ensureChat(state.currentChatId);
+                
+                if (state.imageMode && state.selectedImage) {
+                    await sendImageDetection();
+                    return;
+                }
+                
+                if (message.startsWith('/ner')) {
+                    await sendNER(message.slice(4).trim());
+                    DOM.messageInput.value = '';
+                    return;
+                }
+                
+                addMessage('user', message);
+                DOM.messageInput.value = '';
+                
+                const loadingMsg = createSystemMessageElement('⏳ Думаю...');
+                DOM.messages.appendChild(loadingMsg);
+                
+                try {
+                    const controller = new AbortController();
+                    const timeoutId = setTimeout(() => controller.abort(), 30000);
+                    
+                    const res = await fetch('/chat', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({message, chat_id: state.currentChatId}),
+                        signal: controller.signal
+                    });
+                    
+                    clearTimeout(timeoutId);
+                    loadingMsg.remove();
+                    
+                    const data = await res.json();
+                    
+                    // НОВАЯ ЛОГИКА: ЯВНОЕ ПЕРЕКЛЮЧЕНИЕ ЧАТА
+                    if (data.chat_id && data.chat_id !== state.currentChatId) {
+                        // 1. Предупреждаем пользователя
+                        addSystemMessage('⚠️ Сессия обновлена. Чат переключён.');
+                        
+                        // 2. ЯВНО переключаемся на новый чат
+                        state.chatMessages[data.chat_id] = state.chatMessages[data.chat_id] || [];
+                        switchChat(data.chat_id);
+                        
+                        // 3. Добавляем ответ ассистента УЖЕ В НОВЫЙ ЧАТ
+                        addMessage('assistant', data.response);
+                        
+                        // 4. Обновляем сайдбар и выходим
+                        renderChatList();
+                        saveToStorage();
+                        return;
+                    }
+                    
+                    // Если chat_id не изменился — просто добавляем ответ
+                    addMessage('assistant', data.response);
+                    
+                } catch (e) {
+                    loadingMsg.remove();
+                    addSystemMessage('❌ Ошибка: ' + (e.name === 'AbortError' ? 'Таймаут' : e.message));
+                }
+            };
+            
+            // NER запрос
+            async function sendNER(text) {
+                if (!text) {
+                    addSystemMessage('Введите текст после /ner');
+                    return;
+                }
+                
+                addMessage('user', `/ner ${text}`);
+                
+                try {
+                    const res = await fetch('/ner', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({text})
+                    });
+                    
+                    const data = await res.json();
+                    
+                    if (data.entities?.length) {
+                        const response = 'Найденные сущности:\n' + data.entities.map(e => `  • ${e.text} (${e.type})`).join('\n');
+                        addMessage('assistant', response);
+                    } else {
+                        addMessage('assistant', 'Сущности не найдены');
+                    }
+                } catch (e) {
+                    addSystemMessage('❌ Ошибка NER: ' + e.message);
+                }
+            }
+            
+            // Работа с изображениями
+            window.toggleImageMode = function() {
+                state.imageMode = !state.imageMode;
+                DOM.imageBtn.classList.toggle('active', state.imageMode);
+                state.imageMode ? DOM.imageInput.click() : state.selectedImage = null;
+            };
+            
+            DOM.imageInput.onchange = async (e) => {
+                const file = e.target.files[0];
+                if (!file) return;
+                
+                state.selectedImage = file;
+                addSystemMessage(`📷 Выбрано: ${file.name}`);
+                
+                const reader = new FileReader();
+                reader.onload = (e) => addMessage('user', 'Детекция объектов:', {image: e.target.result});
+                reader.readAsDataURL(file);
+                
+                await sendImageDetection();
+            };
+            
+            async function sendImageDetection() {
+                const formData = new FormData();
+                formData.append('image', state.selectedImage);
+                
+                addSystemMessage('🔍 YOLO анализирует...');
+                
+                try {
+                    const res = await fetch('/detect', { method: 'POST', body: formData });
+                    const data = await res.json();
+                    
+                    addMessage('assistant', `Найдено ${data.detections.length} объектов:`);
+                    data.detections.forEach(d => addSystemMessage(`  • ${d.class}: ${(d.confidence * 100).toFixed(0)}%`));
+                    addMessage('assistant', 'Результат:', {image: data.annotated_image});
+                } catch (e) {
+                    addSystemMessage('❌ Ошибка детекции: ' + e.message);
+                }
+                
+                state.imageMode = false;
+                DOM.imageBtn.classList.remove('active');
+                state.selectedImage = null;
+                DOM.imageInput.value = '';
+            }
+            
+            // ========== НОВЫЙ ГОЛОС С УСИЛЕНИЕМ ==========
+            async function startBoostedRecording() {
+                if (!navigator.mediaDevices || !window.AudioContext) {
+                    DOM.voiceStatus.textContent = '❌ API не поддерживается';
+                    return false;
+                }
+                
+                DOM.voiceStatus.textContent = '📢 Запуск усиленного микрофона...';
+                
+                try {
+                    const stream = await navigator.mediaDevices.getUserMedia({ 
+                        audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: false } 
+                    });
+                    
+                    const audioCtx = new AudioContext();
+                    const source = audioCtx.createMediaStreamSource(stream);
+                    const gainNode = audioCtx.createGain();
+                    gainNode.gain.value = 10.0;
+                    
+                    source.connect(gainNode);
+                    
+                    state.audioContext = audioCtx;
+                    state.mediaStream = stream;
+                    
+                    return true;
+                } catch (e) {
+                    DOM.voiceStatus.textContent = `❌ Нет доступа к микрофону: ${e.message}`;
+                    return false;
+                }
+            }
+            
+            function stopBoostedRecording() {
+                if (state.mediaStream) {
+                    state.mediaStream.getTracks().forEach(track => track.stop());
+                    state.mediaStream = null;
+                }
+                if (state.audioContext) {
+                    state.audioContext.close();
+                    state.audioContext = null;
+                }
+            }
+            
+            window.toggleBoostedVoice = async function() {
+                if (!state.recognition) {
+                    DOM.voiceStatus.textContent = '❌ Браузер не поддерживает';
+                    return;
+                }
+                
+                if (state.isBoostedRecording) {
+                    stopAllRecording();
+                } else {
+                    const success = await startBoostedRecording();
+                    if (!success) return;
+                    
+                    state.isBoostedRecording = true;
+                    state.isRecording = false;
+                    state.finalText = '';
+                    DOM.messageInput.value = '';
+                    
+                    DOM.boostedVoiceBtn.classList.add('active');
+                    DOM.voiceBtn.classList.remove('active');
+                    DOM.boostedVoiceBtn.innerHTML = '📢 <span>Стоп</span>';
+                    DOM.voiceStatus.textContent = '🔴 Говорите громко...';
+                    
+                    try { state.recognition.start(); } catch (e) { stopAllRecording(); }
+                }
+            };
+            
+            window.toggleVoice = function() {
+                if (!state.recognition) {
+                    DOM.voiceStatus.textContent = '❌ Браузер не поддерживает';
+                    return;
+                }
+                
+                if (state.isRecording) {
+                    stopAllRecording();
+                } else {
+                    stopBoostedRecording();
+                    state.isRecording = true;
+                    state.isBoostedRecording = false;
+                    state.finalText = '';
+                    DOM.messageInput.value = '';
+                    
+                    DOM.voiceBtn.classList.add('active');
+                    DOM.boostedVoiceBtn.classList.remove('active');
+                    DOM.voiceBtn.innerHTML = '🎤 <span>Стоп</span>';
+                    DOM.voiceStatus.textContent = '🔴 Говорите...';
+                    
+                    try { state.recognition.start(); } catch (e) { stopAllRecording(); }
+                }
+            };
+            
+            function stopAllRecording() {
+                if (state.isRecording || state.isBoostedRecording) {
+                    state.recognition.stop();
+                }
+                state.isRecording = false;
+                state.isBoostedRecording = false;
+                
+                DOM.voiceBtn.classList.remove('active');
+                DOM.boostedVoiceBtn.classList.remove('active');
+                DOM.voiceBtn.innerHTML = '🎤 <span>Голос</span>';
+                DOM.boostedVoiceBtn.innerHTML = '📢 <span>Усиленный</span>';
+                
+                stopBoostedRecording();
+                
+                setTimeout(() => {
+                    if (DOM.messageInput.value.trim()) {
+                        DOM.voiceStatus.textContent = '✅ Отправлено';
+                        sendMessage();
+                    } else {
+                        DOM.voiceStatus.textContent = '';
+                    }
+                }, 100);
+            }
+            
+            // Очистка чата
+            window.clearCurrentChat = function() {
+                if (!state.currentChatId || !confirm('Очистить чат?')) return;
+                ensureChat(state.currentChatId);
+                state.chatMessages[state.currentChatId] = [];
+                DOM.messages.innerHTML = '';
+                addSystemMessage('🗑️ Чат очищен');
+                renderChatList();
+                saveToStorage();
+                fetch('/clear-chat', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({chat_id: state.currentChatId}) }).catch(()=>{});
+            };
+            
+            // Удаление чата
+            window.deleteChat = function(chatId) {
+                if (!confirm('Удалить чат?')) return;
+                delete state.chatMessages[chatId];
+                if (chatId === state.currentChatId) {
+                    const remaining = Object.keys(state.chatMessages);
+                    remaining.length ? switchChat(remaining[0]) : createNewChat();
+                }
+                renderChatList();
+                saveToStorage();
+                fetch(`/chat/${chatId}`, {method: 'DELETE'}).catch(()=>{});
+            };
+            
+            // Рендер списка чатов
+            function renderChatList() {
+                const fragment = document.createDocumentFragment();
+                Object.keys(state.chatMessages).sort((a,b) => (state.chatMessages[b][0]?.timestamp||0) - (state.chatMessages[a][0]?.timestamp||0))
+                    .forEach(chatId => {
+                        const div = document.createElement('div');
+                        div.className = 'chat-item' + (chatId === state.currentChatId ? ' active' : '');
+                        const nameSpan = document.createElement('span');
+                        nameSpan.textContent = `Чат ${chatId.substring(0,8)} (${state.chatMessages[chatId].length})`;
+                        nameSpan.style.cssText = 'flex:1;cursor:pointer';
+                        nameSpan.onclick = () => switchChat(chatId);
+                        const deleteBtn = document.createElement('span');
+                        deleteBtn.className = 'chat-item-delete';
+                        deleteBtn.textContent = '✕';
+                        deleteBtn.onclick = (e) => { e.stopPropagation(); deleteChat(chatId); };
+                        div.appendChild(nameSpan);
+                        div.appendChild(deleteBtn);
+                        fragment.appendChild(div);
+                    });
+                DOM.chatList.innerHTML = '';
+                DOM.chatList.appendChild(fragment);
+            }
+            
+            function saveToStorage() {
+                try { localStorage.setItem('chatMessages', JSON.stringify(state.chatMessages)); } catch (e) {}
+            }
+            
+            function loadFromStorage() {
+                try {
+                    const saved = localStorage.getItem('chatMessages');
+                    if (saved) {
+                        state.chatMessages = JSON.parse(saved);
+                        renderChatList();
+                        const lastChat = Object.keys(state.chatMessages)[0];
+                        if (lastChat) switchChat(lastChat);
+                    }
+                } catch (e) {}
+            }
+            
+            DOM.messageInput.onkeypress = (e) => {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    sendMessage();
+                }
+            };
+            DOM.sendBtn.onclick = sendMessage;
+            
+            loadFromStorage();
+            if (!state.currentChatId) createNewChat();
+        })();
+    </script>
+</body>
+</html>

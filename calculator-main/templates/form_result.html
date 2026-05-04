@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Данные успешно отправлены!</title>
+    <link rel="stylesheet" href="../../static/css/result_style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✅</text></svg>">
+</head>
+<body>
+    <div class="form-result-container">
+        {% if name and email and address and date %}
+        <!-- Шапка с успехом -->
+        <header class="result-header">
+            <i class="fas fa-check-circle success-icon"></i>
+            <h1>Форма успешно отправлена!</h1>
+            <p>Ваши данные получены, сохранены и готовы к обработке</p>
+        </header>
+
+        <!-- Основной контент -->
+        <main class="result-content">
+            <!-- Сетка с данными -->
+            <div class="data-grid">
+                <div class="data-card">
+                    <div class="data-label">
+                        <i class="fas fa-user-circle"></i> Имя пользователя
+                    </div>
+                    <div class="data-value">{{ name }}</div>
+                </div>
+
+                <div class="data-card">
+                    <div class="data-label">
+                        <i class="fas fa-envelope"></i> Электронная почта
+                    </div>
+                    <div class="data-value">{{ email }}</div>
+                </div>
+
+                <div class="data-card">
+                    <div class="data-label">
+                        <i class="fas fa-map-marker-alt"></i> Адрес доставки
+                    </div>
+                    <div class="data-value">{{ address }}</div>
+                </div>
+
+                <div class="data-card">
+                    <div class="data-label">
+                        <i class="fas fa-calendar-check"></i> Выбранная дата
+                    </div>
+                    <div class="data-value">{{ date }}</div>
+                </div>
+            </div>
+
+            <!-- Информация о сохранении в файл -->
+            <div class="file-save-info">
+                {% if success %}
+                <i class="fas fa-save success-icon"></i>
+                <h3>Данные сохранены в файл</h3>
+                <div class="file-name">form.txt</div>
+                <p>Все введенные данные были автоматически сохранены в системе</p>
+                <p class="file-path">Файл доступен по пути: calculator-main/form.txt</p>
+                {% else %}
+                <i class="fas fa-exclamation-triangle warning-icon"></i>
+                <h3>Внимание: проблема с сохранением</h3>
+                <p>{{ error_message }}</p>
+                <p>Данные на сервере получены, но не сохранены в файл.</p>
+                {% endif %}
+            </div>
+
+            <!-- Кнопки действий -->
+            <div class="action-buttons">
+                <a href="/form" class="btn btn-primary">
+                    <i class="fas fa-plus-circle"></i> Новая форма
+                </a>
+                <a href="/" class="btn btn-secondary">
+                    <i class="fas fa-home"></i> На главную
+                </a>
+                <button onclick="window.print()" class="btn btn-outline">
+                    <i class="fas fa-print"></i> Распечатать
+                </button>
+                <button id="downloadBtn" class="btn btn-success">
+                    <i class="fas fa-download"></i> Скачать данные
+                </button>
+            </div>
+        </main>
+
+        <!-- Футер -->
+        <footer class="result-footer">
+            <p><i class="fas fa-clock"></i> Время отправки: <span class="timestamp">{{ time }}</span></p>
+            <p><i class="fas fa-calendar-alt"></i> Дата отправки: <span class="timestamp">{{ submission_date }}</span></p>
+            <p>© 2026 Система обработки форм. Все права защищены.</p>
+        </footer>
+
+        {% else %}
+        <!-- Если данных нет -->
+        <div class="error-container">
+            <i class="fas fa-exclamation-triangle"></i>
+            <h2>Ошибка обработки данных</h2>
+            <p>Не удалось получить данные формы. Пожалуйста, заполните форму заново.</p>
+            <a href="/form" class="btn btn-primary">Вернуться к форме</a>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Скрипт для дополнительных эффектов -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Показываем уведомление о сохранении
+            setTimeout(() => {
+                const cards = document.querySelectorAll('.data-card');
+                cards.forEach((card, index) => {
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, index * 100);
+                });
+            }, 100);
+            
+            // Добавляем возможность копирования данных
+            const dataValues = document.querySelectorAll('.data-value');
+
+            dataValues.forEach(value => {
+                // Сохраняем оригинальный текст и стили
+                const originalText = value.textContent.trim();
+                const originalColor = window.getComputedStyle(value).color;
+                const originalBgColor = window.getComputedStyle(value).backgroundColor;
+                
+                // Настраиваем элемент для копирования
+                value.style.cursor = 'pointer';
+                value.title = 'Кликните чтобы скопировать';
+                value.setAttribute('role', 'button');
+                value.setAttribute('tabindex', '0');
+                value.setAttribute('aria-label', `Скопировать: ${originalText}`);
+                
+                // Создаем элемент для уведомления
+                const notification = document.createElement('span');
+                notification.className = 'copy-notification';
+                notification.style.cssText = `
+                    position: absolute;
+                    background: #28a745;
+                    color: white;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    font-size: 12px;
+                    opacity: 0;
+                    transform: translateY(10px);
+                    transition: all 0.3s ease;
+                    pointer-events: none;
+                    white-space: nowrap;
+                    z-index: 1000;
+                `;
+                
+                // Функция для показа уведомления
+                function showCopyNotification(message, isSuccess = true) {
+                    notification.textContent = message;
+                    notification.style.background = isSuccess ? '#28a745' : '#dc3545';
+                    
+                    const rect = value.getBoundingClientRect();
+                    notification.style.left = `${rect.left + rect.width / 2}px`;
+                    notification.style.top = `${rect.top - 30}px`;
+                    notification.style.transform = 'translateX(-50%) translateY(10px)';
+                    
+                    document.body.appendChild(notification);
+                    
+                    // Анимация появления
+                    requestAnimationFrame(() => {
+                        notification.style.opacity = '1';
+                        notification.style.transform = 'translateX(-50%) translateY(0)';
+                    });
+                    
+                    // Автоматическое скрытие
+                    setTimeout(() => {
+                        notification.style.opacity = '0';
+                        notification.style.transform = 'translateX(-50%) translateY(-10px)';
+                        setTimeout(() => {
+                            if (notification.parentNode) {
+                                notification.parentNode.removeChild(notification);
+                            }
+                        }, 300);
+                    }, 2000);
+                }
+                
+                // Функция копирования
+                async function copyToClipboard() {
+                    try {
+                        // Пробуем использовать современный Clipboard API
+                        await navigator.clipboard.writeText(originalText);
+                        
+                        // Успешное копирование - визуальная обратная связь
+                        value.style.transition = 'all 0.3s ease';
+                        value.style.color = '#28a745';
+                        value.style.backgroundColor = 'rgba(40, 167, 69, 0.1)';
+                        value.style.fontWeight = 'bold';
+                        
+                        // Анимация "пульсации"
+                        value.animate([
+                            { transform: 'scale(1)' },
+                            { transform: 'scale(1.02)' },
+                            { transform: 'scale(1)' }
+                        ], {
+                            duration: 300,
+                            easing: 'ease-out'
+                        });
+                        
+                        showCopyNotification('✓ Скопировано!', true);
+                        
+                        // Возвращаем оригинальный вид через 1.5 секунды
+                        setTimeout(() => {
+                            value.style.color = originalColor;
+                            value.style.backgroundColor = originalBgColor;
+                            value.style.fontWeight = '';
+                        }, 1500);
+                        
+                    } catch (err) {
+                        // Fallback для браузеров без поддержки Clipboard API
+                        console.warn('Clipboard API не доступен, используем fallback метод:', err);
+                        
+                        try {
+                            // Создаем временный textarea для старых браузеров
+                            const textArea = document.createElement('textarea');
+                            textArea.value = originalText;
+                            textArea.style.position = 'fixed';
+                            textArea.style.left = '-999999px';
+                            textArea.style.top = '-999999px';
+                            document.body.appendChild(textArea);
+                            textArea.focus();
+                            textArea.select();
+                            
+                            // Пробуем старый метод
+                            const successful = document.execCommand('copy');
+                            document.body.removeChild(textArea);
+                            
+                            if (successful) {
+                                // Успех с fallback методом
+                                value.style.color = '#ffc107';
+                                value.style.backgroundColor = 'rgba(255, 193, 7, 0.1)';
+                                showCopyNotification('✓ Скопировано (старый метод)', true);
+                                
+                                setTimeout(() => {
+                                    value.style.color = originalColor;
+                                    value.style.backgroundColor = originalBgColor;
+                                }, 1500);
+                            } else {
+                                throw new Error('Не удалось скопировать');
+                            }
+                        } catch (fallbackErr) {
+                            // Все методы не сработали
+                            console.error('Все методы копирования не сработали:', fallbackErr);
+                            value.style.color = '#dc3545';
+                            value.style.backgroundColor = 'rgba(220, 53, 69, 0.1)';
+                            showCopyNotification('❌ Не удалось скопировать', false);
+                            
+                            setTimeout(() => {
+                                value.style.color = originalColor;
+                                value.style.backgroundColor = originalBgColor;
+                            }, 1500);
+                            
+                            // Альтернатива: предлагаем выделить текст вручную
+                            const range = document.createRange();
+                            range.selectNodeContents(value);
+                            const selection = window.getSelection();
+                            selection.removeAllRanges();
+                            selection.addRange(range);
+                            
+                            setTimeout(() => {
+                                selection.removeAllRanges();
+                            }, 1000);
+                        }
+                    }
+                }
+                
+                // Обработчики событий
+                value.addEventListener('click', copyToClipboard);
+                
+                // Добавляем поддержку клавиатуры
+                value.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        copyToClipboard();
+                    }
+                });
+                
+                // Эффект при наведении
+                value.addEventListener('mouseenter', () => {
+                    value.style.transition = 'all 0.2s ease';
+                    value.style.backgroundColor = 'rgba(14, 176, 124, 0.05)';
+                    value.style.boxShadow = '0 2px 8px rgba(14, 176, 124, 0.1)';
+                });
+                
+                value.addEventListener('mouseleave', () => {
+                    if (!value.style.color.includes('28a745') && 
+                        !value.style.color.includes('dc3545') && 
+                        !value.style.color.includes('ffc107')) {
+                        value.style.backgroundColor = originalBgColor;
+                        value.style.boxShadow = 'none';
+                    }
+                });
+                
+                // Для touch устройств добавляем активное состояние
+                value.addEventListener('touchstart', () => {
+                    value.style.transform = 'scale(0.98)';
+                }, { passive: true });
+                
+                value.addEventListener('touchend', () => {
+                    value.style.transform = 'scale(1)';
+                }, { passive: true });
+            });
+
+            // CSS для уведомлений (добавьте в ваш CSS файл)
+            const style = document.createElement('style');
+            style.textContent = `
+                .data-value {
+                    position: relative;
+                    transition: all 0.3s ease;
+                }
+                
+                .data-value.copied {
+                    animation: copyPulse 0.6s ease;
+                }
+                
+                @keyframes copyPulse {
+                    0% { transform: scale(1); }
+                    50% { transform: scale(1.03); }
+                    100% { transform: scale(1); }
+                }
+                
+                .copy-notification {
+                    font-family: 'Montserrat', sans-serif;
+                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+                }
+                
+                /* Для лучшей доступности на мобильных */
+                @media (max-width: 768px) {
+                    .data-value {
+                        min-height: 44px;
+                        display: flex;
+                        align-items: center;
+                        -webkit-tap-highlight-color: transparent;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+            
+            // Кнопка скачивания данных
+            document.getElementById('downloadBtn')?.addEventListener('click', function() {
+                const data = {
+                    name: "{{ name }}",
+                    email: "{{ email }}",
+                    address: "{{ address }}",
+                    date: "{{ date }}",
+                    time: "{{ time }}",
+                    submission_date: "{{ submission_date }}"
+                };
+                
+                const jsonString = JSON.stringify(data, null, 2);
+                const blob = new Blob([jsonString], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `form_data_{{ time.replace(':', '-') }}.json`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            });
+            
+            // Анимация появления элементов
+            const elements = document.querySelectorAll('.result-header, .data-grid, .file-save-info, .action-buttons');
+            elements.forEach((el, index) => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                
+                setTimeout(() => {
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, index * 200 + 300);
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Активация анимаций карточек
+            const cards = document.querySelectorAll('.data-card');
+            cards.forEach(card => {
+                card.classList.add('loaded');
+            });
+            
+            // Улучшенное копирование с уведомлением
+            // Объект для хранения оригинальных состояний элементов
+            const originalStates = new WeakMap();
+
+            // Получаем все элементы для копирования
+            const dataValues = document.querySelectorAll('.data-value');
+
+            // Инициализируем каждый элемент
+            dataValues.forEach(value => {
+                // Сохраняем оригинальное состояние
+                const originalText = value.textContent.trim();
+                const computedStyle = window.getComputedStyle(value);
+                
+                originalStates.set(value, {
+                    text: originalText,
+                    color: computedStyle.color,
+                    backgroundColor: computedStyle.backgroundColor,
+                    fontWeight: computedStyle.fontWeight
+                });
+                
+                // Настраиваем ARIA атрибуты
+                value.setAttribute('role', 'button');
+                value.setAttribute('tabindex', '0');
+                value.setAttribute('aria-label', `Копировать "${originalText}" в буфер обмена`);
+                value.setAttribute('aria-live', 'polite'); // Для объявлений скринридера
+                
+                // Добавляем подсказку
+                value.title = 'Кликните или нажмите Enter/Space для копирования';
+                
+                // Стили для лучшего UX
+                value.style.cursor = 'pointer';
+                value.style.transition = 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+                
+                // Создаем элемент для визуальной обратной связи
+                const feedbackElement = document.createElement('span');
+                feedbackElement.className = 'copy-feedback';
+                feedbackElement.style.cssText = `
+                    position: absolute;
+                    background: linear-gradient(135deg, #0EB07C, #0d9e6d);
+                    color: white;
+                    padding: 6px 12px;
+                    border-radius: 6px;
+                    font-size: 13px;
+                    font-weight: 600;
+                    opacity: 0;
+                    transform: translateY(-30px) scale(0.8);
+                    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                    pointer-events: none;
+                    white-space: nowrap;
+                    z-index: 1000;
+                    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(10px);
+                `;
+                
+                // Вставляем feedback элемент
+                value.style.position = 'relative';
+                value.appendChild(feedbackElement);
+                
+                // Функция копирования в буфер обмена
+                async function copyToClipboard(event) {
+                    const element = event.currentTarget;
+                    const originalState = originalStates.get(element);
+                    const feedback = element.querySelector('.copy-feedback');
+                    
+                    // Визуальная обратная связь при активации
+                    element.style.transform = 'scale(0.97)';
+                    element.style.backgroundColor = 'rgba(14, 176, 124, 0.1)';
+                    
+                    // Сбрасываем таймауты если они есть
+                    if (element._resetTimeout) {
+                        clearTimeout(element._resetTimeout);
+                    }
+                    if (element._feedbackTimeout) {
+                        clearTimeout(element._feedbackTimeout);
+                    }
+                    
+                    try {
+                        // Пробуем современный Clipboard API
+                        await navigator.clipboard.writeText(originalState.text);
+                        
+                        // Успешное копирование
+                        showSuccessFeedback(element, feedback, '✓ Скопировано!');
+                        
+                        // Обновляем ARIA статус
+                        element.setAttribute('aria-label', `Скопировано: ${originalState.text}`);
+                        
+                        // Анимация успеха
+                        element.animate([
+                            { backgroundColor: 'rgba(14, 176, 124, 0.1)' },
+                            { backgroundColor: 'rgba(40, 167, 69, 0.2)' },
+                            { backgroundColor: 'rgba(14, 176, 124, 0.1)' }
+                        ], {
+                            duration: 1000,
+                            easing: 'ease-out'
+                        });
+                        
+                    } catch (err) {
+                        console.warn('Clipboard API не доступен, пробуем fallback:', err);
+                        
+                        try {
+                            // Fallback для старых браузеров
+                            const textArea = document.createElement('textarea');
+                            textArea.value = originalState.text;
+                            
+                            // Позиционируем вне экрана
+                            textArea.style.cssText = `
+                                position: fixed;
+                                left: -9999px;
+                                top: -9999px;
+                                opacity: 0;
+                                pointer-events: none;
+                            `;
+                            
+                            document.body.appendChild(textArea);
+                            textArea.select();
+                            textArea.setSelectionRange(0, 99999); // Для мобильных
+                            
+                            const successful = document.execCommand('copy');
+                            document.body.removeChild(textArea);
+                            
+                            if (successful) {
+                                showSuccessFeedback(element, feedback, '✓ Скопировано (старый метод)');
+                            } else {
+                                throw new Error('execCommand failed');
+                            }
+                            
+                        } catch (fallbackErr) {
+                            console.error('Все методы копирования не сработали:', fallbackErr);
+                            
+                            // Показываем ошибку
+                            feedback.textContent = '❌ Ошибка копирования';
+                            feedback.style.background = 'linear-gradient(135deg, #dc3545, #c82333)';
+                            showFeedback(feedback);
+                            
+                            // Выделяем текст вручную как последний вариант
+                            try {
+                                const range = document.createRange();
+                                const selection = window.getSelection();
+                                range.selectNodeContents(element);
+                                selection.removeAllRanges();
+                                selection.addRange(range);
+                                
+                                // Устанавливаем таймер для снятия выделения
+                                setTimeout(() => {
+                                    selection.removeAllRanges();
+                                }, 1500);
+                                
+                            } catch (selectErr) {
+                                console.error('Не удалось выделить текст:', selectErr);
+                            }
+                        }
+                    }
+                    
+                    // Восстанавливаем оригинальное состояние через 2 секунды
+                    element._resetTimeout = setTimeout(() => {
+                        element.style.transform = '';
+                        element.style.backgroundColor = originalState.backgroundColor;
+                        element.setAttribute('aria-label', `Копировать "${originalState.text}" в буфер обмена`);
+                    }, 2000);
+                }
+                
+                // Функция для показа успешного фидбека
+                function showSuccessFeedback(element, feedback, message) {
+                    feedback.textContent = message;
+                    feedback.style.background = 'linear-gradient(135deg, #28a745, #218838)';
+                    showFeedback(feedback);
+                    
+                    // Анимация пульсации
+                    element.animate([
+                        { transform: 'scale(1)' },
+                        { transform: 'scale(1.03)' },
+                        { transform: 'scale(1)' }
+                    ], {
+                        duration: 300,
+                        easing: 'cubic-bezier(0.4, 0, 0.2, 1)'
+                    });
+                }
+                
+                // Функция для показа фидбека
+                function showFeedback(feedback) {
+                    // Позиционируем фидбек
+                    const rect = feedback.parentElement.getBoundingClientRect();
+                    feedback.style.left = `${rect.width / 2}px`;
+                    feedback.style.top = '-10px';
+                    feedback.style.transform = 'translateX(-50%) translateY(-30px) scale(0.8)';
+                    
+                    // Показываем
+                    requestAnimationFrame(() => {
+                        feedback.style.opacity = '1';
+                        feedback.style.transform = 'translateX(-50%) translateY(0) scale(1)';
+                    });
+                    
+                    // Автоматически скрываем
+                    feedback.parentElement._feedbackTimeout = setTimeout(() => {
+                        feedback.style.opacity = '0';
+                        feedback.style.transform = 'translateX(-50%) translateY(-30px) scale(0.8)';
+                    }, 2000);
+                }
+                
+                // Обработчики событий
+                value.addEventListener('click', copyToClipboard);
+                
+                // Поддержка клавиатуры
+                value.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        copyToClipboard(e);
+                    }
+                });
+                
+                // Эффекты при наведении и фокусе
+                value.addEventListener('mouseenter', () => {
+                    value.style.backgroundColor = 'rgba(14, 176, 124, 0.05)';
+                    value.style.boxShadow = '0 2px 12px rgba(14, 176, 124, 0.1)';
+                });
+                
+                value.addEventListener('mouseleave', () => {
+                    const originalState = originalStates.get(value);
+                    if (!value._resetTimeout) {
+                        value.style.backgroundColor = originalState.backgroundColor;
+                        value.style.boxShadow = '';
+                    }
+                });
+                
+                // Фокус для клавиатурной навигации
+                value.addEventListener('focus', () => {
+                    value.style.outline = '2px solid #0EB07C';
+                    value.style.outlineOffset = '2px';
+                    value.style.borderRadius = '4px';
+                });
+                
+                value.addEventListener('blur', () => {
+                    value.style.outline = '';
+                    value.style.outlineOffset = '';
+                    value.style.borderRadius = '';
+                });
+                
+                // Оптимизация для touch устройств
+                value.addEventListener('touchstart', () => {
+                    value.style.transform = 'scale(0.98)';
+                }, { passive: true });
+                
+                value.addEventListener('touchend', () => {
+                    if (!value._resetTimeout) {
+                        value.style.transform = '';
+                    }
+                }, { passive: true });
+            });
+
+            // Добавляем глобальные стили для фидбека
+            const style = document.createElement('style');
+            style.textContent = `
+                .data-value {
+                    position: relative;
+                    user-select: none;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                }
+                
+                .data-value:focus-visible {
+                    outline: 3px solid #0EB07C;
+                    outline-offset: 3px;
+                    border-radius: 6px;
+                }
+                
+                .copy-feedback::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -6px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 0;
+                    height: 0;
+                    border-left: 6px solid transparent;
+                    border-right: 6px solid transparent;
+                    border-top: 6px solid rgba(0, 0, 0, 0.1);
+                }
+                
+                /* Анимация для успешного копирования */
+                @keyframes copySuccess {
+                    0% {
+                        box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.4);
+                    }
+                    70% {
+                        box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
+                    }
+                    100% {
+                        box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+                    }
+                }
+                
+                .data-value.copied {
+                    animation: copySuccess 1s ease;
+                }
+                
+                /* Медиа-запросы для адаптивности */
+                @media (max-width: 768px) {
+                    .data-value {
+                        min-height: 44px; /* Минимальный размер для touch */
+                        -webkit-tap-highlight-color: transparent;
+                    }
+                    
+                    .copy-feedback {
+                        font-size: 12px;
+                        padding: 5px 10px;
+                    }
+                }
+                
+                /* Поддержка prefers-reduced-motion */
+                @media (prefers-reduced-motion: reduce) {
+                    .data-value,
+                    .copy-feedback {
+                        transition: none !important;
+                        animation: none !important;
+                    }
+                }
+                
+                /* Стили для темной темы */
+                @media (prefers-color-scheme: dark) {
+                    .data-value:hover {
+                        background-color: rgba(14, 176, 124, 0.15) !important;
+                    }
+                    
+                    .copy-feedback {
+                        background: linear-gradient(135deg, #1a1a1a, #2d2d2d) !important;
+                        border: 1px solid #444;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+
+            // Глобальная функция для копирования из любого места
+            window.copyTextToClipboard = async function(text, element = null) {
+                try {
+                    await navigator.clipboard.writeText(text);
+                    
+                    if (element) {
+                        const feedback = element.querySelector('.copy-feedback') || 
+                                        document.querySelector('.copy-feedback');
+                        if (feedback) {
+                            feedback.textContent = '✓ Скопировано!';
+                            feedback.style.background = 'linear-gradient(135deg, #28a745, #218838)';
+                            showFeedback(feedback);
+                        }
+                    }
+                    
+                    return true;
+                } catch (err) {
+                    console.error('Ошибка при копировании:', err);
+                    return false;
+                }
+            };
+            
+            async function copyToClipboard(e) {
+                const element = e.currentTarget;
+                const textToCopy = element.textContent.trim();
+                
+                try {
+                    await navigator.clipboard.writeText(textToCopy);
+                    
+                    // Показываем уведомление
+                    showNotification('✓ Скопировано в буфер обмена!', 'success');
+                    
+                    // Анимация элемента
+                    element.style.animation = 'none';
+                    setTimeout(() => {
+                        element.style.animation = 'pulse 0.5s ease';
+                    }, 10);
+                    
+                } catch (err) {
+                    showNotification('❌ Не удалось скопировать', 'error');
+                }
+            }
+            
+            function showNotification(message, type) {
+                const notification = document.createElement('div');
+                notification.className = 'copied-notification';
+                notification.textContent = message;
+                notification.style.background = type === 'success' ? '#28a745' : '#dc3545';
+                
+                document.body.appendChild(notification);
+                
+                setTimeout(() => {
+                    notification.style.animation = 'slideInRight 0.3s ease-out reverse';
+                    setTimeout(() => {
+                        document.body.removeChild(notification);
+                    }, 300);
+                }, 2000);
+            }
+            
+            // Анимация для кнопок при наведении
+            const buttons = document.querySelectorAll('.btn');
+            buttons.forEach(btn => {
+                btn.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-3px) scale(1.02)';
+                });
+                
+                btn.addEventListener('mouseleave', function() {
+                    this.style.transform = '';
+                });
+            });
+            
+            // Lazy loading анимаций
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animationPlayState = 'running';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            cards.forEach(card => observer.observe(card));
+        });
+    </script>
+</body>
+</html>

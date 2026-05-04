@@ -1,0 +1,18 @@
+flask>=3.0.0
+flask-cors>=4.0.0
+flask-session>=0.5.0
+ultralytics>=8.1.0
+opencv-python>=4.9.0
+pillow>=10.1.0
+numpy>=1.24.0
+spacy @ file:///mnt/d/Kodland/M6U4/spacy-3.8.11
+cython>=3.1.0
+blis @ file:///mnt/d/Kodland/M6U4/cython-blis
+thinc @ file:///mnt/d/Kodland/M6U4//thinc-8.2.4
+gliner2>=0.1.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+spacy-transformers
+en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl
+ru-core-news-lg @ https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.8.0/ru_core_news_lg-3.8.0-py3-none-any.whl
+en_core_web_trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.8.0/en_core_web_trf-3.8.0-py3-none-any.whl

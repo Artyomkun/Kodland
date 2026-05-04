@@ -1,0 +1,85 @@
+elixir_music_bot/
+# Большие файлы которые уже были
+
+M1L3/keras
+M1L3/keras-3.14.0.dist-info
+M1L3/namex
+M1L3/typings
+M2U3/ssl
+M2U3/nginx-logs
+M6U4/.flask_session
+M6U4/.venv
+M6U4/cython-blis
+M6U4/spacy-3.8.11
+M6U4/thinc-8.2.4
+M7U2/.env
+
+# Всегда игнорировать
+
+*.exe
+*.msi
+*.dmg
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.safetensors
+*.pth
+*.ckpt
+*.bin
+*.pt
+*.conf
+*-lock.json
+
+# Папки с моделями и данными
+node_modules/
+__pycache__/
+.mypy_cache
+*.pyc
+.env
+
+# Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+*.so
+*.dylib
+*.dll
+# db
+*.db
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Docker
+docker-compose.override.yml
+
+# Media
+*.wav
+*.mp3
+*.ogg
+*.opus
+*.flac
+*.aac
+*.wma
+*.m4a
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini

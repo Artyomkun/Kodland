@@ -1,0 +1,25 @@
+aiogram
+pandas
+tables
+scikit-learn
+python-dotenv
+numpy
+Pillow
+matplotlib
+gTTS==2.3.2
+h5py
+joblib
+diffusers
+torch
+torchvision
+transformers
+accelerate
+peft
+hf_xet
+keras
+tensorflow
+bs4
+ultralytics
+--extra-index-url https://download.pytorch.org/whl/cu130
+ruff
+isort
